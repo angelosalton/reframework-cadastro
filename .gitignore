@@ -1,0 +1,8 @@
+*.ppt
+*.pdf
+*.xlsm
+.local/*
+.screenshots/*
+Itens/*
+Thumbs.db
+Data/*
