@@ -86,7 +86,7 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <Flowchart.StartNode>
-      <x:Reference>__ReferenceID58</x:Reference>
+      <x:Reference>__ReferenceID59</x:Reference>
     </Flowchart.StartNode>
     <FlowStep x:Name="__ReferenceID12">
       <sap:WorkflowViewStateService.ViewState>
@@ -102,7 +102,7 @@
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="452,1310" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="630a37f2fa8c7d4a08bd74b2acfa6252" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
+        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="452,1310" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="ecc3ebc9f62c85b945f81653b5778d33" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
           <ui:WindowScope.Body>
             <ActivityAction x:TypeArguments="x:Object">
               <ActivityAction.Argument>
@@ -199,7 +199,7 @@
         </ui:WindowScope>
       </Sequence>
       <FlowStep.Next>
-        <FlowStep x:Name="__ReferenceID57">
+        <FlowStep x:Name="__ReferenceID58">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <av:Point x:Key="ShapeLocation">390,134.5</av:Point>
@@ -267,7 +267,7 @@
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,812" sap2010:WorkflowViewState.IdRef="WindowScope_53" InformativeScreenshot="38e2eca288254f3ad8041cd8390395a7" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
+                    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,812" sap2010:WorkflowViewState.IdRef="WindowScope_53" InformativeScreenshot="38e2eca288254f3ad8041cd8390395a7" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
                       <ui:WindowScope.Body>
                         <ActivityAction x:TypeArguments="x:Object">
                           <ActivityAction.Argument>
@@ -360,19 +360,19 @@
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="434,1560" sap2010:WorkflowViewState.IdRef="WindowScope_54" InformativeScreenshot="44635abdf597c27459c6a7d9b0f139c7" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
+                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="789,1707" sap2010:WorkflowViewState.IdRef="WindowScope_54" InformativeScreenshot="44635abdf597c27459c6a7d9b0f139c7" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
                           <ui:WindowScope.Body>
                             <ActivityAction x:TypeArguments="x:Object">
                               <ActivityAction.Argument>
                                 <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
                               </ActivityAction.Argument>
-                              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,1414" sap2010:WorkflowViewState.IdRef="Sequence_162">
+                              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="755,1561" sap2010:WorkflowViewState.IdRef="Sequence_162">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:WaitImageAppear FoundElement="{x:Null}" ContinueOnError="True" DisplayName="Espera janela bancos" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="WaitImageAppear_21">
+                                <ui:WaitImageAppear FoundElement="{x:Null}" ContinueOnError="True" DisplayName="Espera janela bancos" sap:VirtualizedContainerService.HintSize="713,106" sap2010:WorkflowViewState.IdRef="WaitImageAppear_21">
                                   <ui:WaitImageAppear.Image>
                                     <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAK0AAABoCAYAAACDinBEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAO/SURBVHhe7dtBcttKDEVR7Sl7yp6yQi/Bw6R6gCoU/NDdVCiLz7yDU2YD/WV91h06j8/Pj7+AE6KFHaKFHaKFnVOjfTwekroLPOsl0a5mwP8gWth5S7Qxm+3qs7qj9rMdfoZptL9+/2mp+zUYFU2d1Xtxjlm3V+fZrlL/T/Ago42l2s2oSLpwYl73R8/Zkbvw1Uar5isqktWs7o+esyN34etLtM8GO6hI6uzsc3bkLnzZR5vPsx1+jpdEW+3cq7vunGdHd/gZTo0W+A5ECztECztECztECztECztECztECztECztECztECztECztECztECztECztECztEC6n7A/or/GE90ULq/uUH0eKyIs4aKdHisnajHedQ53mf5/VunqtdRbSQcjw7z2q3Oqtnda6IFtJOYLPYZrt6Xt2tiBZSF9JubLNdPY/nKt+tiBZSDSfOed7dWe3que5WiBaSCmnMZrHt7up5dbciWkhdOCqwUOdHzyHPFaKFHaKFHaKFHaKFHaKFHaKFHaKFHaKFHaKFHaKFHaKFHaKFHaKFHaKFHaJtdH8it/Onc9/F4TsOZ38fom2MF61e9lWCiO+x+o7v+L6v/p1E2+iieEcESvf96uwd3/fVv5NoG10U6hzqPO/zvN7Nc7VT4l73WfEz1H03737Wu3med90s/6zzeA75jkK0jfpCV89qtzqrZ3WuVvePfHa9uzqr593d0XmHaBv5xe08H9nV8+pudeZnP3u32v2ceN69rxBto3uRuy97tqvn8Vzlu5m6G/Id9RznanZ3dc5m9+rz7n2FaBvdi9x92bNdPdfdTHe3+7x6f/a7Vnd3P3dnt3tfIdqGenFjtvuyZ7t6Xt1dzUPsj3z2GXfHc7c741wRbaN7ceoFhzo/eg55ns12Q+zzPfWZMVPzo+eY5V2e1506x6z+dx2ihR2ihR2ihR2ihR2ihR2ihR2ihR2ihR2ihR2ihR2ihR2ihR2ihR2ihR2ivZHuz/6Ozt+NaG+k+3vV3dlVEO2NRIg1yCsHqhDtjexEu7MbP+s8n+u87uKc591dhWhvpEayela71Vk9q93uXYVob6QLZTeg2a6ez/ochWhvpIsjz2cBzXb1PJ4rdW/nXBHtjXRx5PksoNmunusuO/I5CtHeiIphzPK8Pne71fnZnTpXRHsjXQwqmpjlnbq3Ooc6z+eYqbsK0cIO0cIO0cIO0cIO0cIO0cIO0cIO0cIO0cLOl2gHwsWVES3syGiHES7x4oraaEPEC1zFMlrgaogWdogWZj7+/gORdh5mxCMagwAAAABJRU5ErkJggg==" />
                                   </ui:WaitImageAppear.Image>
@@ -384,7 +384,7 @@
                                     </ui:Target>
                                   </ui:WaitImageAppear.Target>
                                 </ui:WaitImageAppear>
-                                <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Abre pesquisa" sap:VirtualizedContainerService.HintSize="334,154" sap2010:WorkflowViewState.IdRef="SendHotkey_95" Key="f11" KeyModifiers="None" SpecialKey="True">
+                                <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Abre pesquisa" sap:VirtualizedContainerService.HintSize="713,154" sap2010:WorkflowViewState.IdRef="SendHotkey_95" Key="f11" KeyModifiers="None" SpecialKey="True">
                                   <ui:SendHotkey.Target>
                                     <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" InformativeScreenshot="e12d0d98a89412cd9378a1f9175b8975">
                                       <ui:Target.TimeoutMS>
@@ -396,12 +396,12 @@
                                     </ui:Target>
                                   </ui:SendHotkey.Target>
                                 </ui:SendHotkey>
-                                <ui:SetClippingRegion Element="{x:Null}" Region="{x:Null}" Direction="RECTANGLE" DisplayName="Reset clipping region" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="SetClippingRegion_15">
+                                <ui:SetClippingRegion Element="{x:Null}" Region="{x:Null}" Direction="RECTANGLE" DisplayName="Reset clipping region" sap:VirtualizedContainerService.HintSize="713,22" sap2010:WorkflowViewState.IdRef="SetClippingRegion_15">
                                   <ui:SetClippingRegion.Size>
                                     <ui:Region Rectangle="0, 0, 0, 0" />
                                   </ui:SetClippingRegion.Size>
                                 </ui:SetClippingRegion>
-                                <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into" sap:VirtualizedContainerService.HintSize="334,96" sap2010:WorkflowViewState.IdRef="TypeInto_175" Text="%[k(tab)][k(tab)]">
+                                <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DelayBetweenKeys="200" DisplayName="Type Into" sap:VirtualizedContainerService.HintSize="713,96" sap2010:WorkflowViewState.IdRef="TypeInto_175" Text="%[k(tab)][k(tab)]">
                                   <ui:TypeInto.Target>
                                     <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}">
                                       <ui:Target.TimeoutMS>
@@ -413,7 +413,7 @@
                                     </ui:Target>
                                   </ui:TypeInto.Target>
                                 </ui:TypeInto>
-                                <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" DisplayName="Pesquisa banco" EmptyField="False" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_176" SendWindowMessages="False" SimulateType="False" Text="[dic_dados(&quot;banco_cod&quot;).ToString]">
+                                <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" DisplayName="Pesquisa banco" EmptyField="False" sap:VirtualizedContainerService.HintSize="713,134" sap2010:WorkflowViewState.IdRef="TypeInto_176" SendWindowMessages="False" SimulateType="False" Text="[dic_dados(&quot;banco_cod&quot;).ToString]">
                                   <ui:TypeInto.Target>
                                     <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" InformativeScreenshot="80abae94156dae3cb8754da8f69dde92">
                                       <ui:Target.TimeoutMS>
@@ -425,7 +425,7 @@
                                     </ui:Target>
                                   </ui:TypeInto.Target>
                                 </ui:TypeInto>
-                                <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Navega até nome de agencia" sap:VirtualizedContainerService.HintSize="334,96" sap2010:WorkflowViewState.IdRef="TypeInto_177" Text="%[k(tab)]">
+                                <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DelayMS="300" DisplayName="Navega até nome de agencia" sap:VirtualizedContainerService.HintSize="713,96" sap2010:WorkflowViewState.IdRef="TypeInto_177" Text="%[k(tab)]">
                                   <ui:TypeInto.Target>
                                     <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}">
                                       <ui:Target.TimeoutMS>
@@ -437,19 +437,37 @@
                                     </ui:Target>
                                   </ui:TypeInto.Target>
                                 </ui:TypeInto>
-                                <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" DisplayName="Pesquisa agencia" EmptyField="False" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_178" SendWindowMessages="False" SimulateType="False" Text="[Split(dic_dados(&quot;banco_agencia&quot;).ToString,&quot;-&quot;)(0)]">
-                                  <ui:TypeInto.Target>
-                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" InformativeScreenshot="eebab3661d9dd05392be786d715ab0ea">
-                                      <ui:Target.TimeoutMS>
-                                        <InArgument x:TypeArguments="x:Int32" />
-                                      </ui:Target.TimeoutMS>
-                                      <ui:Target.WaitForReady>
-                                        <InArgument x:TypeArguments="ui:WaitForReady" />
-                                      </ui:Target.WaitForReady>
-                                    </ui:Target>
-                                  </ui:TypeInto.Target>
-                                </ui:TypeInto>
-                                <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Efetua pesquisa" sap:VirtualizedContainerService.HintSize="334,154" sap2010:WorkflowViewState.IdRef="SendHotkey_96" Key="f11" KeyModifiers="Ctrl" SpecialKey="True">
+                                <If Condition="[dic_dados(&quot;banco_cod&quot;).ToString = &quot;237&quot;]" DisplayName="Pesquisa diferente com Bradesco" sap:VirtualizedContainerService.HintSize="713,281" sap2010:WorkflowViewState.IdRef="If_18">
+                                  <If.Then>
+                                    <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" DisplayName="Pesquisa agencia" EmptyField="False" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_205" SendWindowMessages="False" SimulateType="False" Text="[dic_dados(&quot;banco_agencia&quot;).ToString]">
+                                      <ui:TypeInto.Target>
+                                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" InformativeScreenshot="eebab3661d9dd05392be786d715ab0ea">
+                                          <ui:Target.TimeoutMS>
+                                            <InArgument x:TypeArguments="x:Int32" />
+                                          </ui:Target.TimeoutMS>
+                                          <ui:Target.WaitForReady>
+                                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                                          </ui:Target.WaitForReady>
+                                        </ui:Target>
+                                      </ui:TypeInto.Target>
+                                    </ui:TypeInto>
+                                  </If.Then>
+                                  <If.Else>
+                                    <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" DisplayName="Pesquisa agencia" EmptyField="False" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_206" SendWindowMessages="False" SimulateType="False" Text="[Split(dic_dados(&quot;banco_agencia&quot;).ToString,&quot;-&quot;)(0)]">
+                                      <ui:TypeInto.Target>
+                                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" InformativeScreenshot="eebab3661d9dd05392be786d715ab0ea">
+                                          <ui:Target.TimeoutMS>
+                                            <InArgument x:TypeArguments="x:Int32" />
+                                          </ui:Target.TimeoutMS>
+                                          <ui:Target.WaitForReady>
+                                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                                          </ui:Target.WaitForReady>
+                                        </ui:Target>
+                                      </ui:TypeInto.Target>
+                                    </ui:TypeInto>
+                                  </If.Else>
+                                </If>
+                                <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Efetua pesquisa" sap:VirtualizedContainerService.HintSize="713,154" sap2010:WorkflowViewState.IdRef="SendHotkey_96" Key="f11" KeyModifiers="Ctrl" SpecialKey="True">
                                   <ui:SendHotkey.Target>
                                     <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" InformativeScreenshot="6ef97c538cc131a8fc35f8cf8f06474f">
                                       <ui:Target.TimeoutMS>
@@ -461,7 +479,7 @@
                                     </ui:Target>
                                   </ui:SendHotkey.Target>
                                 </ui:SendHotkey>
-                                <ui:ImageFound DisplayName="Agencia nao existe" Found="[ui_agnexiste]" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="ImageFound_17">
+                                <ui:ImageFound DisplayName="Agencia nao existe" Found="[ui_agnexiste]" sap:VirtualizedContainerService.HintSize="713,106" sap2010:WorkflowViewState.IdRef="ImageFound_17">
                                   <ui:ImageFound.Image>
                                     <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAgsAAAAQCAYAAACY0Ty/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARMSURBVHhe7ZpdjhxHDIP3/hf1EfzooB5o0DSpUvXUZL0LPXwY8UfybNsJGok/fv788WsYhmEYhiExLwvDMAzDMJTMy8IwDMMwDCXzsjAMwzAMQ8m8LAzDMAzDUPL7ZeHj4+MvqmyBHB3WO19xPfw6NzPkzq94svMZ8Pd8+p3X3lf5eb8qX/X5dr/3rZ9v/iy+h1ef6cn+/B7e5zOe5x8vCxwwKWN/zdpzniPtJv00g1ZvB/qne58Bf8cn3/cr/Izfge/+nG/8fPNn8X28+my7+/N7+B4+47l+yZcFhbNqD7O75TxQ7TErT7ddBu0y9jWrNGbsaaYe4/KdpxmTsrQHrZnrKtzRXcxJA/YZZKkHXzPop5nTaU+1wnvspT32OdcuetphTz9dR3G5896ZAWTcqfacX2nMbo99zaDZT13OMLtM/QT3MOs+9M6Dnz65q1p9lwFkqQefM+1ppn3uaOa67GsGrRn0zrvN1ZeF6jORejvNcNbZq2450K/2OEuzy57udbLuTvI7O6d3qptr3mnMzMlON1M/7VU3dntVhtllO42Z2fVSVu3xXGVr7u4lv9p5R6Z+d68zu+z2nuqne4nuvTS77FS72Wn2T2+c+ph32s0u6+zx7PQt4t9Z+KMkGdBO9ZlIvZ2G93RPvUTn3onP+iRjunsnN5yvHbfTuVP5rKvM6eR3b1ZZ5Xdv/N+Z08mvdDfTHtO957Tzq520vzjJUnfXY/3kxq1MeXpnd3fx5Ha3d6p33eR3b2DWDtO9pfpGVvVu8ui/LLguvOoTLM2Zzh3NnNxJXmJ1ldTr+KyrDBqon3SaoRnOuMOzkrpKyqobu/u3b65Z4S73kuZd4Hqq35E5nfyllapbZUB9N3e08zs3APtVxr7LuadaSd3kVzuaKa7HXqfbzRJPbnd7p3rNCne5l3Qncx2Gfe0ljV3G9VTrrCC7yeP/DaEedPp0rEzhTLusmdO96pbSuXfis+7eXnT3OrPTzk+dRZUtOvdVV5nTye/eTPeUpzdO9m5kTic/9RZVt7tX7ey087s7i25W9Zgbv3Z14yRjqj3VT7PEk9vd3qnWLHFyw2Wn/Y7WjOnuVTducv1loZorqnuqn2aV50i93c00vyNbc5WlmTWTdnaZkronN3fa+WtW3cmcTn73xo1szd09p5NfaZ2rDHOVVT2nnV/tvCOr/O7Nat5pN59mqVtlTju6+096p3rXTf7Jjd2uasw7fSOreje5/hccq7nC9ZYHbmXIn3o7P91xWUe7Pc4ws+86qtln1McO++xpxqQs7Z1qhu+5vV2mPuN2VLsble504Z3usa785YGUYWYfMzR31cfMGecuA5pVO+/IwOlex+ecPfY5d1nVdXkncz5r51c7LgPqv6oB+8wrN5IHn3PtdjRQP2ntQ7MHn/Ur/H5ZGIbvws1/QIZ5nu9mnu/wFZiXheHbMf/yfY31/BjXGe4xz3j49/nx6z/NBl59Pc//1wAAAABJRU5ErkJggg==" />
                                   </ui:ImageFound.Image>
@@ -479,12 +497,12 @@
                         </ui:WindowScope>
                       </Sequence>
                       <FlowStep.Next>
-                        <FlowDecision x:Name="__ReferenceID5" Condition="[ui_agnexiste=False]" DisplayName="Agência existe?" sap:VirtualizedContainerService.HintSize="86,87" sap2010:WorkflowViewState.IdRef="FlowDecision_29">
+                        <FlowDecision x:Name="__ReferenceID5" Condition="[ui_agnexiste=False]" DisplayName="Agência existe?" sap:VirtualizedContainerService.HintSize="87,87" sap2010:WorkflowViewState.IdRef="FlowDecision_29">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               <av:Point x:Key="ShapeLocation">267,376.5</av:Point>
-                              <av:Size x:Key="ShapeSize">86,87</av:Size>
+                              <av:Size x:Key="ShapeSize">87,87</av:Size>
                               <x:String x:Key="FalseLabel">Não</x:String>
                               <x:String x:Key="TrueLabel">Sim</x:String>
                               <av:PointCollection x:Key="FalseConnector">353,420 470,420 470,487</av:PointCollection>
@@ -506,7 +524,7 @@
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="434,1368" sap2010:WorkflowViewState.IdRef="WindowScope_55" InformativeScreenshot="60cda4be760df5d3c52756317a804cf9" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
+                                <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="434,1368" sap2010:WorkflowViewState.IdRef="WindowScope_55" InformativeScreenshot="60cda4be760df5d3c52756317a804cf9" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
                                   <ui:WindowScope.Body>
                                     <ActivityAction x:TypeArguments="x:Object">
                                       <ActivityAction.Argument>
@@ -547,7 +565,7 @@
                                             <ui:Region Rectangle="0, 0, 0, 0" />
                                           </ui:SetClippingRegion.Size>
                                         </ui:SetClippingRegion>
-                                        <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Abre pesquisa" sap:VirtualizedContainerService.HintSize="334,116" sap2010:WorkflowViewState.IdRef="SendHotkey_98" Key="f11" KeyModifiers="None" SpecialKey="True">
+                                        <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DelayMS="500" DisplayName="Abre pesquisa" sap:VirtualizedContainerService.HintSize="334,116" sap2010:WorkflowViewState.IdRef="SendHotkey_98" Key="f11" KeyModifiers="None" SpecialKey="True">
                                           <ui:SendHotkey.Target>
                                             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}">
                                               <ui:Target.TimeoutMS>
@@ -559,7 +577,7 @@
                                             </ui:Target>
                                           </ui:SendHotkey.Target>
                                         </ui:SendHotkey>
-                                        <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DelayBetweenKeys="150" DisplayName="Type Into" sap:VirtualizedContainerService.HintSize="334,96" sap2010:WorkflowViewState.IdRef="TypeInto_196" Text="%[k(tab)][k(tab)][k(tab)][k(tab)][k(tab)]">
+                                        <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DelayBetweenKeys="250" DisplayName="Type Into" sap:VirtualizedContainerService.HintSize="334,96" sap2010:WorkflowViewState.IdRef="TypeInto_196" Text="%[k(tab)][k(tab)][k(tab)][k(tab)][k(tab)]">
                                           <ui:TypeInto.Target>
                                             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}">
                                               <ui:Target.TimeoutMS>
@@ -613,12 +631,12 @@
                                 </ui:WindowScope>
                               </Sequence>
                               <FlowStep.Next>
-                                <FlowDecision x:Name="__ReferenceID8" Condition="[ui_contanexiste=False]" DisplayName="Conta já existe?" sap:VirtualizedContainerService.HintSize="87,87" sap2010:WorkflowViewState.IdRef="FlowDecision_28">
+                                <FlowDecision x:Name="__ReferenceID8" Condition="[ui_contanexiste=False]" DisplayName="Conta já existe?" sap:VirtualizedContainerService.HintSize="88,87" sap2010:WorkflowViewState.IdRef="FlowDecision_28">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       <av:Point x:Key="ShapeLocation">86.5,576.5</av:Point>
-                                      <av:Size x:Key="ShapeSize">87,87</av:Size>
+                                      <av:Size x:Key="ShapeSize">88,87</av:Size>
                                       <x:String x:Key="FalseLabel">Não</x:String>
                                       <x:String x:Key="TrueLabel">Sim</x:String>
                                       <av:PointCollection x:Key="FalseConnector">173.5,620 320,620 320,644.5</av:PointCollection>
@@ -634,13 +652,13 @@
                                           <av:PointCollection x:Key="ConnectorLocation">110,803 110,833 280,833 280,884.5</av:PointCollection>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <Sequence DisplayName="Pega nome da conta existente" sap:VirtualizedContainerService.HintSize="476,662" sap2010:WorkflowViewState.IdRef="Sequence_167">
+                                      <Sequence DisplayName="Pega nome da conta existente" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_167">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
-                                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'iexplore.exe Aplicativos'" sap:VirtualizedContainerService.HintSize="434,570" sap2010:WorkflowViewState.IdRef="WindowScope_60" InformativeScreenshot="b06293aa7a409ed1560830d0cb4fb66f" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
+                                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'iexplore.exe Aplicativos'" sap:VirtualizedContainerService.HintSize="434,570" sap2010:WorkflowViewState.IdRef="WindowScope_60" InformativeScreenshot="b06293aa7a409ed1560830d0cb4fb66f" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
                                           <ui:WindowScope.Body>
                                             <ActivityAction x:TypeArguments="x:Object">
                                               <ActivityAction.Argument>
@@ -746,7 +764,7 @@
                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
-                                            <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="434,1692" sap2010:WorkflowViewState.IdRef="WindowScope_57" InformativeScreenshot="60cda4be760df5d3c52756317a804cf9" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
+                                            <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="434,1692" sap2010:WorkflowViewState.IdRef="WindowScope_57" InformativeScreenshot="60cda4be760df5d3c52756317a804cf9" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
                                               <ui:WindowScope.Body>
                                                 <ActivityAction x:TypeArguments="x:Object">
                                                   <ActivityAction.Argument>
@@ -899,20 +917,20 @@
                                   <av:PointCollection x:Key="ConnectorLocation">470,553 470,757</av:PointCollection>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <Sequence sap2010:Annotation.AnnotationText="Se agência é nova, conta também vai ser (pula pesquisa)" DisplayName="Cadastra nova agencia" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_174">
+                              <Sequence sap2010:Annotation.AnnotationText="Se agência é nova, conta também vai ser (pula pesquisa)" DisplayName="Cadastra nova agencia" sap:VirtualizedContainerService.HintSize="494,1468" sap2010:WorkflowViewState.IdRef="Sequence_174">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="452,1240" sap2010:WorkflowViewState.IdRef="WindowScope_58" InformativeScreenshot="2995ba6e20f3e1745ff10ca735ecb99b" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
+                                <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="452,1376" sap2010:WorkflowViewState.IdRef="WindowScope_58" InformativeScreenshot="2995ba6e20f3e1745ff10ca735ecb99b" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
                                   <ui:WindowScope.Body>
                                     <ActivityAction x:TypeArguments="x:Object">
                                       <ActivityAction.Argument>
                                         <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
                                       </ActivityAction.Argument>
-                                      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="418,1094" sap2010:WorkflowViewState.IdRef="Sequence_173">
+                                      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="418,1230" sap2010:WorkflowViewState.IdRef="Sequence_173">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -930,7 +948,7 @@
                                             </ui:Target>
                                           </ui:SendHotkey.Target>
                                         </ui:SendHotkey>
-                                        <Sequence DisplayName="Entra nome do banco" sap:VirtualizedContainerService.HintSize="376,250" sap2010:WorkflowViewState.IdRef="Sequence_170">
+                                        <Sequence DisplayName="Entra nome do banco" sap:VirtualizedContainerService.HintSize="376,386" sap2010:WorkflowViewState.IdRef="Sequence_170">
                                           <Sequence.Variables>
                                             <Variable x:TypeArguments="ui:GenericValue" Name="banco_nome" />
                                           </Sequence.Variables>
@@ -944,7 +962,19 @@
                                               <OutArgument x:TypeArguments="ui:GenericValue">[banco_nome]</OutArgument>
                                             </ui:LookupDataTable.CellValue>
                                           </ui:LookupDataTable>
-                                          <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" DisplayName="Entra nome do banco" EmptyField="False" sap:VirtualizedContainerService.HintSize="334,96" sap2010:WorkflowViewState.IdRef="TypeInto_186" SendWindowMessages="False" SimulateType="False" Text="[banco_nome.ToString.ToUpper + &quot;[k(tab)][k(tab)]&quot;]">
+                                          <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" DisplayName="Entra nome do banco" EmptyField="False" sap:VirtualizedContainerService.HintSize="334,96" sap2010:WorkflowViewState.IdRef="TypeInto_186" SendWindowMessages="False" SimulateType="False" Text="[banco_nome.ToString.ToUpper]">
+                                            <ui:TypeInto.Target>
+                                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}">
+                                                <ui:Target.TimeoutMS>
+                                                  <InArgument x:TypeArguments="x:Int32" />
+                                                </ui:Target.TimeoutMS>
+                                                <ui:Target.WaitForReady>
+                                                  <InArgument x:TypeArguments="ui:WaitForReady" />
+                                                </ui:Target.WaitForReady>
+                                              </ui:Target>
+                                            </ui:TypeInto.Target>
+                                          </ui:TypeInto>
+                                          <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DelayBetweenKeys="200" DisplayName="Type Into" sap:VirtualizedContainerService.HintSize="334,96" sap2010:WorkflowViewState.IdRef="TypeInto_207" Text="%[k(tab)][k(tab)]">
                                             <ui:TypeInto.Target>
                                               <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}">
                                                 <ui:Target.TimeoutMS>
@@ -957,7 +987,7 @@
                                             </ui:TypeInto.Target>
                                           </ui:TypeInto>
                                         </Sequence>
-                                        <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" DisplayName="Entra número do banco" EmptyField="False" sap:VirtualizedContainerService.HintSize="376,96" sap2010:WorkflowViewState.IdRef="TypeInto_187" SendWindowMessages="False" SimulateType="False" Text="[dic_dados(&quot;banco_cod&quot;).ToString + &quot;[k(tab)]&quot;]">
+                                        <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" Activate="True" DelayMS="400" DisplayName="Entra número do banco" EmptyField="False" sap:VirtualizedContainerService.HintSize="376,96" sap2010:WorkflowViewState.IdRef="TypeInto_187" SendWindowMessages="False" SimulateType="False" Text="[dic_dados(&quot;banco_cod&quot;).ToString + &quot;[k(tab)]&quot;]">
                                           <ui:TypeInto.Target>
                                             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}">
                                               <ui:Target.TimeoutMS>
@@ -1098,7 +1128,7 @@
             <x:Reference>__ReferenceID10</x:Reference>
           </Flowchart>
           <FlowStep.Next>
-            <FlowStep x:Name="__ReferenceID48">
+            <FlowStep x:Name="__ReferenceID49">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <av:Point x:Key="ShapeLocation">390,207</av:Point>
@@ -1112,7 +1142,7 @@
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="452,1780" sap2010:WorkflowViewState.IdRef="WindowScope_2" InformativeScreenshot="8cbc1ac2fc0f7a8a451cadf67b85d707" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
+                <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="452,1780" sap2010:WorkflowViewState.IdRef="WindowScope_2" InformativeScreenshot="8cbc1ac2fc0f7a8a451cadf67b85d707" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
                   <ui:WindowScope.Body>
                     <ActivityAction x:TypeArguments="x:Object">
                       <ActivityAction.Argument>
@@ -1244,7 +1274,7 @@
                               <ui:ImageTarget Image="{x:Null}" Accuracy="0.95" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAjAAAAAPCAYAAAD6QvU+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARUSURBVHhe7ZpLbhtBDER1/4v6CFk67gWBUqWKzW71xJgBFw9ifcjIYwcRkrz+/Pn6bpqmaZqmuRP9AaZpmqZpmtvRH2Capmmaprkd/QGmaZqmaZrb8fYB5vV6/UOWDXgf9cxnVC9+nZNZ5MrP2Nn5DfB97r7nsXeXr/eu3PX5Vt/3qa+vfxav4dNnurLf38Pz9PP8eQZvInkgLkN/zNxTnsLtOr2bhWZvRvRX934DfI877/cOX+MTePpzPvH19c/idXz6bKv7/T28hn6uP8/gTSQPxGXoj5l7ylO43UwjmGV7MatbyguyPWTk7rbKQqsMfc4yHXPsccYeovKZxxniMrcXmjPVZbDDuzE7HaCPROZ64XMWejdT2u2xZnAPPbeHPubcjR530ONX1WFUrrwrsyAy7GR7ys90zGoPfc5Co++6mMWsMvYd2IuZ90PPvPDdK3ZZs6+yIDLXCx8z7nHGfexwprrocxaas9Az7+kc/wCTvTpcb6YRzCp72S1F9LM9zNysst29SlbdcX5lZ/VOdnPMMx0zsrJTzdh3e9mN2V6WxayymY4ZmfVclu3hnGVjru45P9u5ImO/uleZVXZ6j/XunqN6z80qW9VqVhr91RurfswzrWaVVfZwVvqppP8HJssC7mSvDteb6fB299hzVO6t+KhXMqS6t3JD+dxRO5U7mY86y5R2fvVmlmV+9cb/zpR2fqarGfeQ6j2llZ/tuP3BSua6sx7qnRunMmb3zuzuYOd2tbeqZ13nV2/EzB2keov1iSzrPZntv4FR3fCy12BozHiuaGTljvMco8u4XsVHnWWhA/addnNoBDPs4My4LuOy7Mbs/umbY2awiz2ncTdQPdZXZEo7f2gm62ZZwL6aK1r5lRsB+lmGvsqxx5pxXednO5wxqodepVvNHDu3q71VPWYGu9hzupKpDoI+95yOXUT1WPPMRPZkPvonJPZCu1fFyBjMuIsaWd3LbjGVeys+6urtQXWvMiutfNcZZNmgcp91lint/OpNd4/ZvbGydyJT2vmuN8i61b1sZ6aVX90ZVLOsh5z4tbMbKxmS7bHezRw7t6u9Vc2ZY+WGylb7Fc0ZUt3LbjyZSz7AZHNGdo/1bpZ5Cteb3XTzFdmYs8zNqBG3M8sY1125OdPKHzPrSqa086s3TmRjru4p7fxM85xlMWdZ1lNa+dnOFVnmV29m80yreTVz3SxTWlHd3+mt6lnX+Ss3ZrusY57pE1nWezKX/CfebM5QveEFp7LId72Z7+6orKLVHmYxo686rNFH2I8d9NHjDHGZ21vVCN5Te7OMfUTtsFY3Ml3phre6hzrzhxe4LGb0Yw6NXfZjxgxzlQWcZTtXZMHqXsXHHD30MVdZ1lV5JVM+auVnOyoL2P9UB+gjn9xwXviYc7eiA/ad5n5o9MJH/STePsA0zVN48m/a36Cf57X0822adfoDTPNI+g+EzxjPD1Gd5hz9jJtmla/vvyd22P15yL25AAAAAElFTkSuQmCC" />
                             </ui:ImageFound.Image>
                             <ui:ImageFound.Target>
-                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;" TimeoutMS="2000" WaitForReady="INTERACTIVE" />
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;" TimeoutMS="2000" WaitForReady="INTERACTIVE" />
                             </ui:ImageFound.Target>
                           </ui:ImageFound>
                         </Sequence>
@@ -1254,7 +1284,7 @@
                 </ui:WindowScope>
               </Sequence>
               <FlowStep.Next>
-                <FlowDecision x:Name="__ReferenceID49" Condition="[ui_fornnexiste = False]" DisplayName="Forn existe?" sap:VirtualizedContainerService.HintSize="70,87" sap2010:WorkflowViewState.IdRef="FlowDecision_1">
+                <FlowDecision x:Name="__ReferenceID50" Condition="[ui_fornnexiste = False]" DisplayName="Forn existe?" sap:VirtualizedContainerService.HintSize="70,87" sap2010:WorkflowViewState.IdRef="FlowDecision_1">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1267,7 +1297,7 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                   <FlowDecision.True>
-                    <FlowStep x:Name="__ReferenceID50">
+                    <FlowStep x:Name="__ReferenceID51">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <av:Point x:Key="ShapeLocation">50,387</av:Point>
@@ -1281,7 +1311,7 @@
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,1237" sap2010:WorkflowViewState.IdRef="WindowScope_13" InformativeScreenshot="d7bf69ee3dfb20073b2c47a1ae8666d8" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
+                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,1237" sap2010:WorkflowViewState.IdRef="WindowScope_13" InformativeScreenshot="d7bf69ee3dfb20073b2c47a1ae8666d8" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
                           <ui:WindowScope.Body>
                             <ActivityAction x:TypeArguments="x:Object">
                               <ActivityAction.Argument>
@@ -1364,7 +1394,7 @@
                                     <ui:ImageTarget Image="{x:Null}" Accuracy="0.95" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAjAAAAAPCAYAAAD6QvU+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARUSURBVHhe7ZpLbhtBDER1/4v6CFk67gWBUqWKzW71xJgBFw9ifcjIYwcRkrz+/Pn6bpqmaZqmuRP9AaZpmqZpmtvRH2Capmmaprkd/QGmaZqmaZrb8fYB5vV6/UOWDXgf9cxnVC9+nZNZ5MrP2Nn5DfB97r7nsXeXr/eu3PX5Vt/3qa+vfxav4dNnurLf38Pz9PP8eQZvInkgLkN/zNxTnsLtOr2bhWZvRvRX934DfI877/cOX+MTePpzPvH19c/idXz6bKv7/T28hn6uP8/gTSQPxGXoj5l7ylO43UwjmGV7MatbyguyPWTk7rbKQqsMfc4yHXPsccYeovKZxxniMrcXmjPVZbDDuzE7HaCPROZ64XMWejdT2u2xZnAPPbeHPubcjR530ONX1WFUrrwrsyAy7GR7ys90zGoPfc5Co++6mMWsMvYd2IuZ90PPvPDdK3ZZs6+yIDLXCx8z7nHGfexwprrocxaas9Az7+kc/wCTvTpcb6YRzCp72S1F9LM9zNysst29SlbdcX5lZ/VOdnPMMx0zsrJTzdh3e9mN2V6WxayymY4ZmfVclu3hnGVjru45P9u5ImO/uleZVXZ6j/XunqN6z80qW9VqVhr91RurfswzrWaVVfZwVvqppP8HJssC7mSvDteb6fB299hzVO6t+KhXMqS6t3JD+dxRO5U7mY86y5R2fvVmlmV+9cb/zpR2fqarGfeQ6j2llZ/tuP3BSua6sx7qnRunMmb3zuzuYOd2tbeqZ13nV2/EzB2keov1iSzrPZntv4FR3fCy12BozHiuaGTljvMco8u4XsVHnWWhA/addnNoBDPs4My4LuOy7Mbs/umbY2awiz2ncTdQPdZXZEo7f2gm62ZZwL6aK1r5lRsB+lmGvsqxx5pxXednO5wxqodepVvNHDu3q71VPWYGu9hzupKpDoI+95yOXUT1WPPMRPZkPvonJPZCu1fFyBjMuIsaWd3LbjGVeys+6urtQXWvMiutfNcZZNmgcp91lint/OpNd4/ZvbGydyJT2vmuN8i61b1sZ6aVX90ZVLOsh5z4tbMbKxmS7bHezRw7t6u9Vc2ZY+WGylb7Fc0ZUt3LbjyZSz7AZHNGdo/1bpZ5Cteb3XTzFdmYs8zNqBG3M8sY1125OdPKHzPrSqa086s3TmRjru4p7fxM85xlMWdZ1lNa+dnOFVnmV29m80yreTVz3SxTWlHd3+mt6lnX+Ss3ZrusY57pE1nWezKX/CfebM5QveEFp7LId72Z7+6orKLVHmYxo686rNFH2I8d9NHjDHGZ21vVCN5Te7OMfUTtsFY3Ml3phre6hzrzhxe4LGb0Yw6NXfZjxgxzlQWcZTtXZMHqXsXHHD30MVdZ1lV5JVM+auVnOyoL2P9UB+gjn9xwXviYc7eiA/ad5n5o9MJH/STePsA0zVN48m/a36Cf57X0822adfoDTPNI+g+EzxjPD1Gd5hz9jJtmla/vvyd22P15yL25AAAAAElFTkSuQmCC" />
                                   </ui:ImageFound.Image>
                                   <ui:ImageFound.Target>
-                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;" TimeoutMS="2000" WaitForReady="INTERACTIVE" />
+                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;" TimeoutMS="2000" WaitForReady="INTERACTIVE" />
                                   </ui:ImageFound.Target>
                                 </ui:ImageFound>
                               </Sequence>
@@ -1373,7 +1403,7 @@
                         </ui:WindowScope>
                       </Sequence>
                       <FlowStep.Next>
-                        <FlowDecision x:Name="__ReferenceID51" Condition="[ui_localexiste = False]" DisplayName="Local existe" sap:VirtualizedContainerService.HintSize="70,87" sap2010:WorkflowViewState.IdRef="FlowDecision_5">
+                        <FlowDecision x:Name="__ReferenceID52" Condition="[ui_localexiste = False]" DisplayName="Local existe" sap:VirtualizedContainerService.HintSize="70,87" sap2010:WorkflowViewState.IdRef="FlowDecision_5">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1386,7 +1416,7 @@
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
                           <FlowDecision.True>
-                            <FlowStep x:Name="__ReferenceID55">
+                            <FlowStep x:Name="__ReferenceID56">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <av:Point x:Key="ShapeLocation">40,577</av:Point>
@@ -1400,10 +1430,38 @@
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="231,61" sap2010:WorkflowViewState.IdRef="WriteLine_3" Text="Local já existe" />
+                                <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="434,61" sap2010:WorkflowViewState.IdRef="WriteLine_3" Text="Local já existe" />
+                                <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'wfica32.exe Aplicativos'" sap:VirtualizedContainerService.HintSize="434,354" sap2010:WorkflowViewState.IdRef="WindowScope_61" InformativeScreenshot="d2d02b3a40a0cbc112975086d6d73c90" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
+                                  <ui:WindowScope.Body>
+                                    <ActivityAction x:TypeArguments="x:Object">
+                                      <ActivityAction.Argument>
+                                        <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+                                      </ActivityAction.Argument>
+                                      <Sequence DisplayName="Fecha janela do fornecedor existente" sap:VirtualizedContainerService.HintSize="376,208" sap2010:WorkflowViewState.IdRef="Sequence_189">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                        <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DelayMS="1000" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="334,116" sap2010:WorkflowViewState.IdRef="SendHotkey_117" Key="f4" KeyModifiers="None" SpecialKey="True">
+                                          <ui:SendHotkey.Target>
+                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}">
+                                              <ui:Target.TimeoutMS>
+                                                <InArgument x:TypeArguments="x:Int32" />
+                                              </ui:Target.TimeoutMS>
+                                              <ui:Target.WaitForReady>
+                                                <InArgument x:TypeArguments="ui:WaitForReady" />
+                                              </ui:Target.WaitForReady>
+                                            </ui:Target>
+                                          </ui:SendHotkey.Target>
+                                        </ui:SendHotkey>
+                                      </Sequence>
+                                    </ActivityAction>
+                                  </ui:WindowScope.Body>
+                                </ui:WindowScope>
                               </Sequence>
                               <FlowStep.Next>
-                                <FlowStep x:Name="__ReferenceID42">
+                                <FlowStep x:Name="__ReferenceID43">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <av:Point x:Key="ShapeLocation">220,778.5</av:Point>
@@ -1428,7 +1486,7 @@
                                     </Assign>
                                   </Sequence>
                                   <FlowStep.Next>
-                                    <FlowDecision x:Name="__ReferenceID53" Condition="[ind_fazenda &lt;&gt; faz_list.Length]" DisplayName="Restam fazendas?" sap:VirtualizedContainerService.HintSize="99,87" sap2010:WorkflowViewState.IdRef="FlowDecision_7" True="{x:Reference __ReferenceID12}">
+                                    <FlowDecision x:Name="__ReferenceID54" Condition="[ind_fazenda &lt;&gt; faz_list.Length]" DisplayName="Restam fazendas?" sap:VirtualizedContainerService.HintSize="99,87" sap2010:WorkflowViewState.IdRef="FlowDecision_7" True="{x:Reference __ReferenceID12}">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1441,7 +1499,7 @@
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
                                       <FlowDecision.False>
-                                        <FlowStep x:Name="__ReferenceID54">
+                                        <FlowStep x:Name="__ReferenceID55">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <av:Point x:Key="ShapeLocation">440,957</av:Point>
@@ -1464,7 +1522,7 @@
                             </FlowStep>
                           </FlowDecision.True>
                           <FlowDecision.False>
-                            <FlowStep x:Name="__ReferenceID56">
+                            <FlowStep x:Name="__ReferenceID57">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <av:Point x:Key="ShapeLocation">280,574.5</av:Point>
@@ -1485,7 +1543,7 @@
                                 </ui:SendHotkey.Target>
                               </ui:SendHotkey>
                               <FlowStep.Next>
-                                <FlowStep x:Name="__ReferenceID47">
+                                <FlowStep x:Name="__ReferenceID48">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <av:Point x:Key="ShapeLocation">470,674.5</av:Point>
@@ -1493,7 +1551,7 @@
                                       <av:PointCollection x:Key="ConnectorLocation">570,725.5 570,755.5 320,755.5 320,778.5</av:PointCollection>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <Flowchart DisplayName="Preenche local" sap:VirtualizedContainerService.HintSize="674,1209" sap2010:WorkflowViewState.IdRef="Flowchart_2">
+                                  <Flowchart DisplayName="Preenche local" sap:VirtualizedContainerService.HintSize="704,1255" sap2010:WorkflowViewState.IdRef="Flowchart_2">
                                     <Flowchart.Variables>
                                       <Variable x:TypeArguments="x:Boolean" Default="True" Name="ui_errocep" />
                                     </Flowchart.Variables>
@@ -1502,13 +1560,13 @@
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
                                         <av:Size x:Key="ShapeSize">60,75</av:Size>
-                                        <x:Double x:Key="Height">1173</x:Double>
-                                        <av:PointCollection x:Key="ConnectorLocation">300,77.5 300,107.5 310,107.5 310,137</av:PointCollection>
-                                        <x:Double x:Key="Width">640</x:Double>
+                                        <x:Double x:Key="Height">1219</x:Double>
+                                        <av:PointCollection x:Key="ConnectorLocation">330,40 340,40 340,89</av:PointCollection>
+                                        <x:Double x:Key="Width">670</x:Double>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
                                     <Flowchart.StartNode>
-                                      <x:Reference>__ReferenceID41</x:Reference>
+                                      <x:Reference>__ReferenceID42</x:Reference>
                                     </Flowchart.StartNode>
                                     <FlowStep x:Name="__ReferenceID41">
                                       <sap:WorkflowViewStateService.ViewState>
@@ -1524,7 +1582,7 @@
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
-                                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="434,782" sap2010:WorkflowViewState.IdRef="WindowScope_4" InformativeScreenshot="00cffba40f05bb24c07e197c3dbf1dfa" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
+                                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="434,782" sap2010:WorkflowViewState.IdRef="WindowScope_4" InformativeScreenshot="00cffba40f05bb24c07e197c3dbf1dfa" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
                                           <ui:WindowScope.Body>
                                             <ActivityAction x:TypeArguments="x:Object">
                                               <ActivityAction.Argument>
@@ -1591,13 +1649,13 @@
                                               <av:PointCollection x:Key="ConnectorLocation">310,303 310,333 320,333 320,346.5</av:PointCollection>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
-                                          <Sequence DisplayName="Endereço" sap:VirtualizedContainerService.HintSize="831,2378" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                                          <Sequence DisplayName="Endereço" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_15">
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
-                                            <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="789,2286" sap2010:WorkflowViewState.IdRef="WindowScope_5" InformativeScreenshot="00cffba40f05bb24c07e197c3dbf1dfa" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
+                                            <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="789,2286" sap2010:WorkflowViewState.IdRef="WindowScope_5" InformativeScreenshot="00cffba40f05bb24c07e197c3dbf1dfa" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
                                               <ui:WindowScope.Body>
                                                 <ActivityAction x:TypeArguments="x:Object">
                                                   <ActivityAction.Argument>
@@ -1794,13 +1852,13 @@
                                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                       </scg:Dictionary>
                                                     </sap:WorkflowViewStateService.ViewState>
-                                                    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="789,3190" sap2010:WorkflowViewState.IdRef="WindowScope_17" InformativeScreenshot="4cff7ebcbed23256840750a5dfec0466" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
+                                                    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="789,3252" sap2010:WorkflowViewState.IdRef="WindowScope_17" InformativeScreenshot="4cff7ebcbed23256840750a5dfec0466" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
                                                       <ui:WindowScope.Body>
                                                         <ActivityAction x:TypeArguments="x:Object">
                                                           <ActivityAction.Argument>
                                                             <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
                                                           </ActivityAction.Argument>
-                                                          <Sequence sap:VirtualizedContainerService.HintSize="755,3044" sap2010:WorkflowViewState.IdRef="Sequence_74">
+                                                          <Sequence sap:VirtualizedContainerService.HintSize="755,3106" sap2010:WorkflowViewState.IdRef="Sequence_74">
                                                             <sap:WorkflowViewStateService.ViewState>
                                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1869,7 +1927,7 @@
                                                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                     </scg:Dictionary>
                                                                   </sap:WorkflowViewStateService.ViewState>
-                                                                  <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,252" sap2010:WorkflowViewState.IdRef="WindowScope_25" InformativeScreenshot="1e7f6da7488252fb73c25fe8608bde0e" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
+                                                                  <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,252" sap2010:WorkflowViewState.IdRef="WindowScope_25" InformativeScreenshot="1e7f6da7488252fb73c25fe8608bde0e" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
                                                                     <ui:WindowScope.Body>
                                                                       <ActivityAction x:TypeArguments="x:Object">
                                                                         <ActivityAction.Argument>
@@ -1923,7 +1981,7 @@
                                                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                         </scg:Dictionary>
                                                                       </sap:WorkflowViewStateService.ViewState>
-                                                                      <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,242" sap2010:WorkflowViewState.IdRef="WindowScope_26" InformativeScreenshot="1e7f6da7488252fb73c25fe8608bde0e" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
+                                                                      <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,242" sap2010:WorkflowViewState.IdRef="WindowScope_26" InformativeScreenshot="1e7f6da7488252fb73c25fe8608bde0e" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
                                                                         <ui:WindowScope.Body>
                                                                           <ActivityAction x:TypeArguments="x:Object">
                                                                             <ActivityAction.Argument>
@@ -1976,7 +2034,7 @@
                                                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                     </scg:Dictionary>
                                                                   </sap:WorkflowViewStateService.ViewState>
-                                                                  <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,742" sap2010:WorkflowViewState.IdRef="WindowScope_19" InformativeScreenshot="195a1212b65b38cd8fabee4d4ed944d2" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
+                                                                  <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,742" sap2010:WorkflowViewState.IdRef="WindowScope_19" InformativeScreenshot="195a1212b65b38cd8fabee4d4ed944d2" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
                                                                     <ui:WindowScope.Body>
                                                                       <ActivityAction x:TypeArguments="x:Object">
                                                                         <ActivityAction.Argument>
@@ -2081,7 +2139,7 @@
                                                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                             </scg:Dictionary>
                                                                           </sap:WorkflowViewStateService.ViewState>
-                                                                          <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,742" sap2010:WorkflowViewState.IdRef="WindowScope_20" InformativeScreenshot="195a1212b65b38cd8fabee4d4ed944d2" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
+                                                                          <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,742" sap2010:WorkflowViewState.IdRef="WindowScope_20" InformativeScreenshot="195a1212b65b38cd8fabee4d4ed944d2" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
                                                                             <ui:WindowScope.Body>
                                                                               <ActivityAction x:TypeArguments="x:Object">
                                                                                 <ActivityAction.Argument>
@@ -2162,7 +2220,7 @@
                                                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                             </scg:Dictionary>
                                                                           </sap:WorkflowViewStateService.ViewState>
-                                                                          <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,742" sap2010:WorkflowViewState.IdRef="WindowScope_21" InformativeScreenshot="195a1212b65b38cd8fabee4d4ed944d2" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
+                                                                          <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,742" sap2010:WorkflowViewState.IdRef="WindowScope_21" InformativeScreenshot="195a1212b65b38cd8fabee4d4ed944d2" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
                                                                             <ui:WindowScope.Body>
                                                                               <ActivityAction x:TypeArguments="x:Object">
                                                                                 <ActivityAction.Argument>
@@ -2335,10 +2393,7 @@
                                                                   <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAaQAAABtCAYAAADu3BX9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAfgSURBVHhe7d1BjtxGDIXhOa3P4WvMLXKQWWWVvRc+QpYTcMGYYUiKJZV62O4/wIdWkayS0k7mwXKAvP39989PAAC+GoEEABiBQAIAjEAgAQBGIJAAACMQSACAEQgkAMAIBBIAYAQCCQAwAoEEABiBQAIAjEAgAQBGIJAAACMQSACAEQgkAMAIBBIAYIQvC6T39/d/RX0AwGvZGkhHIWP7Hx8fn/KXfL69vYXzAIDXsS2QbNgIDRlb0xD6/Hz/zyeBBAC4NZCqELKfOhudCwB4DVtf2UmwKAmYKoTs57dv3wgkAHhxlwNJgsT+Tkj/TEjrnVC668+RsjM1NL3VmYqdXd1nXe35ujra17Eyf+b838mj/97P/lpO+TWS51BRz9d83e637LxV9Xarnsf2rNWZFX6vXVfnXrln5lQg+RDScJG1WAkj+cuGWHS/M/TLir607Iu09c5MpXOWF81p7Wyvqq/si3RnV87E4+mvz5RfJ/8c0Tp6VluL+mfqu/n7HK2j+s5njc7qnr/zOVQrkDRghA8h//lrJu5nn7tf2+mXtfKF23pnptI5y+vOKZ2P9mVn2frKvkh3duVMvLbsnxVb12s/G814q/WdOve+MrNL9/w7nqMdSGdCZuVT7rHzb1DPis7M7mPrnZlK5yyvO6d0PtrXqR3NRH0rmpVPX+/UtJ592lm/9vWoZ/m+Xeu1P8evfT3qWbav19k+ra/0dO0/bV/Z+pWepf1sVutRzzrqC53xs3adnbNaV9JXvl6traqnshlb75yj/Kw/R1Uzvqe1rOfrK9qv7CQwNDzu+Nz52i76oqp1VO/MVDpneTonn8rPWHY+63Vqlu9X7Lzf37mOeqvr6DpaW9WsXB+to+tobfl92Tn+jJVeNnu070zPk162d/WcqG517pOds1oXvlfdZ+WcSDbj7+nZWcv3dJ3VV66zXrTuageSvFLrhsvZz12v7Y6+HFlHVmcqdra7L7pHtvfo/M453VrGzlb3OzO3uj6ata6cs3Ku1b3HjvP9utrnVfuqc6rZK+dEsrP9dUT73krPrqueV/WUzET8jF0f0flqn+11rqO1VfUqS4H0DK/tZH/Gztg9kaOZ6Fzfj64tf0Y016ntmslqGTtb3e/M3Oparj07a/meXVe9bG3ZnmV7fi5aK1+3a6uarfYJ6Vu27ufs2qpmr5wTyc6z9c45VjWf3e+o51U9tWvG0nm/T9aWrR9dZ2vL9rqWXtk9w2u77Iuw9c6XtfqF+vnV+4lorjq3W4v6WT2bjVT3yHrdudW171VWzrkya92xz6rO3LXvK86J6tl51YyXnRGpZq+cE9Wr/aozY+l8dZ+sd2ZPtO5qB5KY/tru6EvQfufLWv1C/bxdd8+K5jrn3LXvSHWPrNedW10fzVp+38o52axc+1kr2zepJ9fdfV41u3KOOJqP9kvN1qMZq3Omqmb9dXWOqM6K1pHOjFfdR679unPd7a1YDqTJr+2O9mm/c/6ZZ5A9KqtbdiabzerqaJ/27No6u0/YfrU36ilfv7pWth6xc3be7+2steZ7lu1FZ/i1svWq11lH+2xPr6Oer3vRPr/unKOq+ewMW89mLD3/6qytR31P56PZ7v6oXsnupXXbz651He2pen6ushRIz/LaDsD/rfxgAL7CUiCJ6a/tAOQIJUx2KpCe4b+2A/CL/Pukoj4wwXIg8doOAHCH5UASvLYDAOx2OpB4bQcA2OlUIPHaDgCw26lAEne/tiOQAOC1XAqk3a/t5DwJIDlbwohAAoDXcTqQJCiEhsnZzyiE5FrPF9H9AQC/l9OBJM6+tiOEAADe5UDqvrYjhAAAlUuBpEGioeM/CSEAQNelQBISMIQQAOCqLYFECAEArtoSSIQQAOCqy4EkCCEAwFVbAgkAgKsIJADACAQSAGAEAgkAMAKBBAAYgUACAIxAIAEARiCQAAAjEEgAgBEIJADACAQSAGAEAgkAMAKBBAAYgUACAIxAIAEARiCQAAAjEEgAgBEIJAB4Mm9vb7eL7ns3AgkAnoSGxffv32/3FcFEIAHAE7BB9OPHx+1sMEXPcwcCCQCG0zCKgkN/J7PjWj69R4YSgQQAg0kYPOp3RZlHhRKBBACDTQikP//6g0ACgFc2IYzUI0KJQAKAoQgkAMAIBBIA4MudCSPZY0V9X1NVT+m50fPuQCABwEDyg38lkKJA8bVopqp7Miei592BQAKAgeQHfzeQqkCxvWiu2uvJrIiedwcCCQAGkh/8dwdStS8i8yJ63h0IJAAYSH7w3xlI1Z6M7BHR8+5AIAHAQPKD/65Aks9qT0b3Rc+7A4EEAAPJD/47Asmv9bpD90fPuwOBBAADyQ9+/qMGAMCXkx/83UASnbCJZqq6J3Miet4dCCQAGEh+8K8EktDAUFHf11TVU3pu9Lw7EEgAMJT88F8NpbvcHUaCQAKAobqBpGGRifas0rOi59yFQAKAoSQA+B0SAGCECaH0iDASBBIADCZBIP/rhygohIbFjmv5jOhc9Hw7EUgAMJyEQRVKd3pUGAkCCQCegIbSo4JJg+hRYSQIJAB4EjYkHiV6jrsQSADwZKLg2C26790IJADACAQSAGAEAgkAMAKBBAAYgUACAIxAIAEARiCQAAAjEEgAgBEIJADACAQSAGAEAgkAMAKBBAAYgUACAIxAIAEARiCQAAAjEEgAgAF+fv4DkxYT4gwwySwAAAAASUVORK5CYII=" />
                                                                 </ui:ImageFound.Image>
                                                                 <ui:ImageFound.Target>
-                                                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}">
-                                                                    <ui:Target.TimeoutMS>
-                                                                      <InArgument x:TypeArguments="x:Int32" />
-                                                                    </ui:Target.TimeoutMS>
+                                                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" TimeoutMS="2000">
                                                                     <ui:Target.WaitForReady>
                                                                       <InArgument x:TypeArguments="ui:WaitForReady" />
                                                                     </ui:Target.WaitForReady>
@@ -2357,14 +2412,15 @@
                                                                 </If.Then>
                                                               </If>
                                                             </Sequence>
-                                                            <Sequence DisplayName="Flexfields 2" sap:VirtualizedContainerService.HintSize="713,979" sap2010:WorkflowViewState.IdRef="Sequence_75">
+                                                            <Sequence DisplayName="Flexfields 2" sap:VirtualizedContainerService.HintSize="713,1041" sap2010:WorkflowViewState.IdRef="Sequence_75">
                                                               <sap:WorkflowViewStateService.ViewState>
                                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                                 </scg:Dictionary>
                                                               </sap:WorkflowViewStateService.ViewState>
-                                                              <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="560,887" sap2010:WorkflowViewState.IdRef="WindowScope_35" InformativeScreenshot="a1d364d136c090c05f84e57d68881b6c" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
+                                                              <Delay DisplayName="Espera 1 seg" Duration="00:00:01" sap:VirtualizedContainerService.HintSize="560,22" sap2010:WorkflowViewState.IdRef="Delay_2" />
+                                                              <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="560,887" sap2010:WorkflowViewState.IdRef="WindowScope_35" InformativeScreenshot="a1d364d136c090c05f84e57d68881b6c" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
                                                                 <ui:WindowScope.Body>
                                                                   <ActivityAction x:TypeArguments="x:Object">
                                                                     <ActivityAction.Argument>
@@ -2442,7 +2498,7 @@
                                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                           </scg:Dictionary>
                                                         </sap:WorkflowViewStateService.ViewState>
-                                                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="434,1332" sap2010:WorkflowViewState.IdRef="WindowScope_6" InformativeScreenshot="1d3a424a669768e4bd78cda60234c82b" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
+                                                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="434,1332" sap2010:WorkflowViewState.IdRef="WindowScope_6" InformativeScreenshot="1d3a424a669768e4bd78cda60234c82b" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
                                                           <ui:WindowScope.Body>
                                                             <ActivityAction x:TypeArguments="x:Object">
                                                               <ActivityAction.Argument>
@@ -2589,7 +2645,7 @@
                                                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                   </scg:Dictionary>
                                                                 </sap:WorkflowViewStateService.ViewState>
-                                                                <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="434,1304" sap2010:WorkflowViewState.IdRef="WindowScope_7" InformativeScreenshot="cf414dfae49021f09a7fb68e78f5e70a" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
+                                                                <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="434,1304" sap2010:WorkflowViewState.IdRef="WindowScope_7" InformativeScreenshot="cf414dfae49021f09a7fb68e78f5e70a" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
                                                                   <ui:WindowScope.Body>
                                                                     <ActivityAction x:TypeArguments="x:Object">
                                                                       <ActivityAction.Argument>
@@ -2729,7 +2785,7 @@
                                                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                       </scg:Dictionary>
                                                                     </sap:WorkflowViewStateService.ViewState>
-                                                                    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="897,986" sap2010:WorkflowViewState.IdRef="WindowScope_8" InformativeScreenshot="b24c98b5f5f4bfab170274966775a1a5" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
+                                                                    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="897,986" sap2010:WorkflowViewState.IdRef="WindowScope_8" InformativeScreenshot="b24c98b5f5f4bfab170274966775a1a5" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
                                                                       <ui:WindowScope.Body>
                                                                         <ActivityAction x:TypeArguments="x:Object">
                                                                           <ActivityAction.Argument>
@@ -3094,7 +3150,7 @@
                                                                           <av:PointCollection x:Key="ConnectorLocation">330,915.5 330,946.5</av:PointCollection>
                                                                         </scg:Dictionary>
                                                                       </sap:WorkflowViewStateService.ViewState>
-                                                                      <Flowchart DisplayName="Entra banco no local" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="Flowchart_12">
+                                                                      <Flowchart DisplayName="Entra banco no local" sap:VirtualizedContainerService.HintSize="634,636" sap2010:WorkflowViewState.IdRef="Flowchart_12">
                                                                         <Flowchart.Variables>
                                                                           <Variable x:TypeArguments="x:Boolean" Name="ui_agnexiste" />
                                                                         </Flowchart.Variables>
@@ -3116,7 +3172,7 @@
                                                                               <av:Size x:Key="ShapeSize">200,66</av:Size>
                                                                             </scg:Dictionary>
                                                                           </sap:WorkflowViewStateService.ViewState>
-                                                                          <Sequence DisplayName="Entra conta no cadastro" sap:VirtualizedContainerService.HintSize="376,752" sap2010:WorkflowViewState.IdRef="Sequence_129">
+                                                                          <Sequence DisplayName="Entra conta no cadastro" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_129">
                                                                             <sap:WorkflowViewStateService.ViewState>
                                                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -3204,7 +3260,7 @@
                                                                                   <av:Size x:Key="ShapeSize">200,66</av:Size>
                                                                                 </scg:Dictionary>
                                                                               </sap:WorkflowViewStateService.ViewState>
-                                                                              <Sequence DisplayName="Entra boleto no cadastro" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_126">
+                                                                              <Sequence DisplayName="Entra boleto no cadastro" sap:VirtualizedContainerService.HintSize="376,762" sap2010:WorkflowViewState.IdRef="Sequence_126">
                                                                                 <sap:WorkflowViewStateService.ViewState>
                                                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -3234,7 +3290,7 @@
                                                                                     </ui:Target>
                                                                                   </ui:TypeInto.Target>
                                                                                 </ui:TypeInto>
-                                                                                <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Passa campos número e moeda" sap:VirtualizedContainerService.HintSize="334,96" sap2010:WorkflowViewState.IdRef="TypeInto_136" Text="%[k(tab)]">
+                                                                                <ui:TypeInto DelayBetweenKeys="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="False" DelayBefore="800" DelayMS="300" DisplayName="Marca campo 'principal' e vai para data de efetivação" EmptyField="False" sap:VirtualizedContainerService.HintSize="334,96" sap2010:WorkflowViewState.IdRef="TypeInto_137" Text="%[k(enter)]">
                                                                                   <ui:TypeInto.Target>
                                                                                     <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}">
                                                                                       <ui:Target.TimeoutMS>
@@ -3246,9 +3302,22 @@
                                                                                     </ui:Target>
                                                                                   </ui:TypeInto.Target>
                                                                                 </ui:TypeInto>
-                                                                                <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Marca campo 'principal' e vai para data de efetivação" sap:VirtualizedContainerService.HintSize="334,96" sap2010:WorkflowViewState.IdRef="TypeInto_137" Text=" [k(tab)]">
-                                                                                  <ui:TypeInto.Target>
-                                                                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}">
+                                                                                <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Clica campo principal" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="ClickImage_91" KeyModifiers="None" MouseButton="BTN_LEFT">
+                                                                                  <ui:ClickImage.CursorPosition>
+                                                                                    <ui:CursorPosition Position="Center">
+                                                                                      <ui:CursorPosition.OffsetX>
+                                                                                        <InArgument x:TypeArguments="x:Int32" />
+                                                                                      </ui:CursorPosition.OffsetX>
+                                                                                      <ui:CursorPosition.OffsetY>
+                                                                                        <InArgument x:TypeArguments="x:Int32" />
+                                                                                      </ui:CursorPosition.OffsetY>
+                                                                                    </ui:CursorPosition>
+                                                                                  </ui:ClickImage.CursorPosition>
+                                                                                  <ui:ClickImage.Image>
+                                                                                    <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAACEAAAAkCAYAAAAHKVPcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC3SURBVFhH7ZLRCcQgDIbd6XbqHK7hFh2kT/d0G3SEPuaw8JdQ4hFtrD3IDx+IaPJhDNu2Ui9eUxL3z7gEOCRCCAf8wBWqJM6NrUQujWOYBEYB+KFW/m8cvOmwl9gXrPkwiR64BFBLvD8zlZAu1KCWiDFSCQsRDcVxWL2Ghp9/wiVASSKlScWyJMqRanCaJTRxCcQlEJdAXALpKpGLa+kmURupBqdJwhqXAM+WyAK3SaCZhHTBnpW+q+9LFyRSFrQAAAAASUVORK5CYII=" />
+                                                                                  </ui:ClickImage.Image>
+                                                                                  <ui:ClickImage.Target>
+                                                                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
                                                                                       <ui:Target.TimeoutMS>
                                                                                         <InArgument x:TypeArguments="x:Int32" />
                                                                                       </ui:Target.TimeoutMS>
@@ -3256,9 +3325,9 @@
                                                                                         <InArgument x:TypeArguments="ui:WaitForReady" />
                                                                                       </ui:Target.WaitForReady>
                                                                                     </ui:Target>
-                                                                                  </ui:TypeInto.Target>
-                                                                                </ui:TypeInto>
-                                                                                <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Preenche data de efetivação" sap:VirtualizedContainerService.HintSize="334,96" sap2010:WorkflowViewState.IdRef="TypeInto_138" Text="01012009[k(tab)]">
+                                                                                  </ui:ClickImage.Target>
+                                                                                </ui:ClickImage>
+                                                                                <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Preenche data de efetivação" sap:VirtualizedContainerService.HintSize="334,96" sap2010:WorkflowViewState.IdRef="TypeInto_138" Text="%[k(tab)]01012009[k(tab)]">
                                                                                   <ui:TypeInto.Target>
                                                                                     <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}">
                                                                                       <ui:Target.TimeoutMS>
@@ -3292,7 +3361,7 @@
                                                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                               </scg:Dictionary>
                                                                             </sap:WorkflowViewStateService.ViewState>
-                                                                            <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="434,344" sap2010:WorkflowViewState.IdRef="WindowScope_46" InformativeScreenshot="57cd17d557d92449d390b87d2b9aa764" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
+                                                                            <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="434,344" sap2010:WorkflowViewState.IdRef="WindowScope_46" InformativeScreenshot="57cd17d557d92449d390b87d2b9aa764" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
                                                                               <ui:WindowScope.Body>
                                                                                 <ActivityAction x:TypeArguments="x:Object">
                                                                                   <ActivityAction.Argument>
@@ -3360,7 +3429,7 @@
                                                                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                                   </scg:Dictionary>
                                                                                 </sap:WorkflowViewStateService.ViewState>
-                                                                                <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,1200" sap2010:WorkflowViewState.IdRef="WindowScope_27" InformativeScreenshot="88bf823e02da1bc16ae83be1551db651" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
+                                                                                <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,1200" sap2010:WorkflowViewState.IdRef="WindowScope_27" InformativeScreenshot="88bf823e02da1bc16ae83be1551db651" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
                                                                                   <ui:WindowScope.Body>
                                                                                     <ActivityAction x:TypeArguments="x:Object">
                                                                                       <ActivityAction.Argument>
@@ -3440,7 +3509,7 @@
                                                                                             </ui:Target>
                                                                                           </ui:ClickImage.Target>
                                                                                         </ui:ClickImage>
-                                                                                        <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DelayMS="400" DisplayName="Type Into" sap:VirtualizedContainerService.HintSize="334,96" sap2010:WorkflowViewState.IdRef="TypeInto_83" Text="[dic_dados(&quot;grupo_imposto&quot;).ToString+faz_list(ind_fazenda).ToString +&quot;[k(tab)]&quot;]">
+                                                                                        <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DelayMS="800" DisplayName="Type Into" sap:VirtualizedContainerService.HintSize="334,96" sap2010:WorkflowViewState.IdRef="TypeInto_83" Text="[dic_dados(&quot;grupo_imposto&quot;).ToString.Replace(&quot;FZ&quot;,faz_list(ind_fazenda).ToString)+&quot;[k(tab)]&quot;]">
                                                                                           <ui:TypeInto.Target>
                                                                                             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}">
                                                                                               <ui:Target.TimeoutMS>
@@ -3533,7 +3602,7 @@
                                                                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                                       </scg:Dictionary>
                                                                                     </sap:WorkflowViewStateService.ViewState>
-                                                                                    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,472" sap2010:WorkflowViewState.IdRef="WindowScope_59" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
+                                                                                    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,472" sap2010:WorkflowViewState.IdRef="WindowScope_59" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
                                                                                       <ui:WindowScope.Body>
                                                                                         <ActivityAction x:TypeArguments="x:Object">
                                                                                           <ActivityAction.Argument>
@@ -3633,9 +3702,22 @@
                                     <x:Reference>__ReferenceID39</x:Reference>
                                     <x:Reference>__ReferenceID40</x:Reference>
                                     <x:Reference>__ReferenceID29</x:Reference>
+                                    <FlowStep x:Name="__ReferenceID42">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <av:Point x:Key="ShapeLocation">240,89</av:Point>
+                                          <av:Size x:Key="ShapeSize">200,22</av:Size>
+                                          <av:PointCollection x:Key="ConnectorLocation">340,111 310,111 310,137</av:PointCollection>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <Delay DisplayName="Espera 1 segundo" Duration="00:00:01" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="Delay_3" />
+                                      <FlowStep.Next>
+                                        <x:Reference>__ReferenceID41</x:Reference>
+                                      </FlowStep.Next>
+                                    </FlowStep>
                                   </Flowchart>
                                   <FlowStep.Next>
-                                    <x:Reference>__ReferenceID42</x:Reference>
+                                    <x:Reference>__ReferenceID43</x:Reference>
                                   </FlowStep.Next>
                                 </FlowStep>
                               </FlowStep.Next>
@@ -3646,7 +3728,7 @@
                     </FlowStep>
                   </FlowDecision.True>
                   <FlowDecision.False>
-                    <FlowStep x:Name="__ReferenceID52">
+                    <FlowStep x:Name="__ReferenceID53">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <av:Point x:Key="ShapeLocation">410,447</av:Point>
@@ -3660,13 +3742,13 @@
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="831,2520" sap2010:WorkflowViewState.IdRef="WindowScope_10" InformativeScreenshot="00cffba40f05bb24c07e197c3dbf1dfa" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
+                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="831,3421" sap2010:WorkflowViewState.IdRef="WindowScope_10" InformativeScreenshot="00cffba40f05bb24c07e197c3dbf1dfa" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
                           <ui:WindowScope.Body>
                             <ActivityAction x:TypeArguments="x:Object">
                               <ActivityAction.Argument>
                                 <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
                               </ActivityAction.Argument>
-                              <Sequence sap:VirtualizedContainerService.HintSize="797,2374" sap2010:WorkflowViewState.IdRef="Sequence_35">
+                              <Sequence sap:VirtualizedContainerService.HintSize="797,3275" sap2010:WorkflowViewState.IdRef="Sequence_35">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -3891,9 +3973,9 @@
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
                                     <Flowchart.StartNode>
-                                      <x:Reference>__ReferenceID46</x:Reference>
+                                      <x:Reference>__ReferenceID47</x:Reference>
                                     </Flowchart.StartNode>
-                                    <FlowStep x:Name="__ReferenceID44">
+                                    <FlowStep x:Name="__ReferenceID45">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <av:Point x:Key="ShapeLocation">400,124.5</av:Point>
@@ -3918,7 +4000,7 @@
                                         </sap:WorkflowViewStateService.ViewState>
                                       </ui:TypeInto>
                                     </FlowStep>
-                                    <FlowStep x:Name="__ReferenceID43">
+                                    <FlowStep x:Name="__ReferenceID44">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <av:Point x:Key="ShapeLocation">40,424.5</av:Point>
@@ -3943,7 +4025,7 @@
                                         </sap:WorkflowViewStateService.ViewState>
                                       </ui:TypeInto>
                                     </FlowStep>
-                                    <FlowStep x:Name="__ReferenceID45">
+                                    <FlowStep x:Name="__ReferenceID46">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <av:Point x:Key="ShapeLocation">330,344.5</av:Point>
@@ -3968,7 +4050,7 @@
                                         </sap:WorkflowViewStateService.ViewState>
                                       </ui:TypeInto>
                                     </FlowStep>
-                                    <FlowSwitch x:TypeArguments="x:String" Default="{x:Reference __ReferenceID45}" x:Name="__ReferenceID46" DisplayName="Flow classificação" Expression="[dic_dados(&quot;tipo_fornecedor&quot;).ToString]" sap:VirtualizedContainerService.HintSize="100,87" sap2010:WorkflowViewState.IdRef="FlowSwitch`1_1">
+                                    <FlowSwitch x:TypeArguments="x:String" Default="{x:Reference __ReferenceID46}" x:Name="__ReferenceID47" DisplayName="Flow classificação" Expression="[dic_dados(&quot;tipo_fornecedor&quot;).ToString]" sap:VirtualizedContainerService.HintSize="100,87" sap2010:WorkflowViewState.IdRef="FlowSwitch`1_1">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <av:Point x:Key="ShapeLocation">90,86.5</av:Point>
@@ -3979,8 +4061,8 @@
                                           <x:String x:Key="DefaultCaseDisplayName">"Fornecedor"</x:String>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <x:Reference>__ReferenceID43<x:Key>"Transportadora"</x:Key></x:Reference>
-                                      <x:Reference>__ReferenceID44<x:Key>"Funcionário"</x:Key></x:Reference>
+                                      <x:Reference>__ReferenceID44<x:Key>"Transportadora"</x:Key></x:Reference>
+                                      <x:Reference>__ReferenceID45<x:Key>"Funcionário"</x:Key></x:Reference>
                                     </FlowSwitch>
                                   </Flowchart>
                                   <Sequence DisplayName="Popup metodo pagamento" sap:VirtualizedContainerService.HintSize="526,502" sap2010:WorkflowViewState.IdRef="Sequence_53">
@@ -4044,7 +4126,7 @@
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
-                                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,928" sap2010:WorkflowViewState.IdRef="WindowScope_14" InformativeScreenshot="4ac7a331a5aef68ad995057b00d4116f" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
+                                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,928" sap2010:WorkflowViewState.IdRef="WindowScope_14" InformativeScreenshot="4ac7a331a5aef68ad995057b00d4116f" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
                                           <ui:WindowScope.Body>
                                             <ActivityAction x:TypeArguments="x:Object">
                                               <ActivityAction.Argument>
@@ -4146,14 +4228,14 @@
                                     </If.Then>
                                   </If>
                                 </Sequence>
-                                <Sequence DisplayName="Aba Retenção de imposto" sap:VirtualizedContainerService.HintSize="755,66" sap2010:WorkflowViewState.IdRef="Sequence_34">
+                                <Sequence DisplayName="Aba Retenção de imposto" sap:VirtualizedContainerService.HintSize="755,967" sap2010:WorkflowViewState.IdRef="Sequence_34">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <If Condition="[dic_dados(&quot;retem_impostos&quot;).ToString = &quot;True&quot;]" sap:VirtualizedContainerService.HintSize="621,876" sap2010:WorkflowViewState.IdRef="If_3">
+                                  <If Condition="[dic_dados(&quot;retem_impostos&quot;).ToString = &quot;True&quot;]" sap:VirtualizedContainerService.HintSize="621,875" sap2010:WorkflowViewState.IdRef="If_3">
                                     <If.Then>
                                       <Sequence DisplayName="Marca retenção de imposto" sap:VirtualizedContainerService.HintSize="476,728" sap2010:WorkflowViewState.IdRef="Sequence_60">
                                         <sap:WorkflowViewStateService.ViewState>
@@ -4161,7 +4243,7 @@
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
-                                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,636" sap2010:WorkflowViewState.IdRef="WindowScope_16" InformativeScreenshot="4ac7a331a5aef68ad995057b00d4116f" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
+                                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,636" sap2010:WorkflowViewState.IdRef="WindowScope_16" InformativeScreenshot="4ac7a331a5aef68ad995057b00d4116f" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
                                           <ui:WindowScope.Body>
                                             <ActivityAction x:TypeArguments="x:Object">
                                               <ActivityAction.Argument>
@@ -4337,7 +4419,7 @@
                         </ui:WindowScope>
                       </Sequence>
                       <FlowStep.Next>
-                        <x:Reference>__ReferenceID47</x:Reference>
+                        <x:Reference>__ReferenceID48</x:Reference>
                       </FlowStep.Next>
                     </FlowStep>
                   </FlowDecision.False>
@@ -4348,16 +4430,16 @@
         </FlowStep>
       </FlowStep.Next>
     </FlowStep>
-    <x:Reference>__ReferenceID48</x:Reference>
     <x:Reference>__ReferenceID49</x:Reference>
-    <x:Reference>__ReferenceID42</x:Reference>
-    <x:Reference>__ReferenceID47</x:Reference>
     <x:Reference>__ReferenceID50</x:Reference>
+    <x:Reference>__ReferenceID43</x:Reference>
+    <x:Reference>__ReferenceID48</x:Reference>
     <x:Reference>__ReferenceID51</x:Reference>
     <x:Reference>__ReferenceID52</x:Reference>
     <x:Reference>__ReferenceID53</x:Reference>
     <x:Reference>__ReferenceID54</x:Reference>
-    <FlowStep x:Name="__ReferenceID58">
+    <x:Reference>__ReferenceID55</x:Reference>
+    <FlowStep x:Name="__ReferenceID59">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">100,0.999999999999993</av:Point>
@@ -4380,7 +4462,7 @@
             <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)">[in_TransactionItem.SpecificContent]</InArgument>
           </Assign.Value>
         </Assign>
-        <TryCatch sap2010:Annotation.AnnotationText="Esta sequencia troca nulos por strings vazias" DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="600,688" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+        <TryCatch sap2010:Annotation.AnnotationText="Esta sequencia troca nulos por strings vazias" DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="600,692" sap2010:WorkflowViewState.IdRef="TryCatch_2">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -4490,8 +4572,8 @@
         <x:Reference>__ReferenceID12</x:Reference>
       </FlowStep.Next>
     </FlowStep>
-    <x:Reference>__ReferenceID55</x:Reference>
     <x:Reference>__ReferenceID56</x:Reference>
     <x:Reference>__ReferenceID57</x:Reference>
+    <x:Reference>__ReferenceID58</x:Reference>
   </Flowchart>
 </Activity>

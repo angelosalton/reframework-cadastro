@@ -53,7 +53,7 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:LogMessage DisplayName="Log message" sap:VirtualizedContainerService.HintSize="434,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Closing applications...&quot;]" />
-    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela applet EBS" sap:VirtualizedContainerService.HintSize="434,782" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="dca4e26f446fed8fe272c9822bf9f7d9" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
+    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela applet EBS" sap:VirtualizedContainerService.HintSize="434,782" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="dca4e26f446fed8fe272c9822bf9f7d9" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
       <ui:WindowScope.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
