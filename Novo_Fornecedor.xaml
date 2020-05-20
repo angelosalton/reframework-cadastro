@@ -105,7 +105,7 @@
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="452,1238" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="ecc3ebc9f62c85b945f81653b5778d33" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
+        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="452,1238" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="ecc3ebc9f62c85b945f81653b5778d33" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
           <ui:WindowScope.Body>
             <ActivityAction x:TypeArguments="x:Object">
               <ActivityAction.Argument>
@@ -297,7 +297,7 @@
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,812" sap2010:WorkflowViewState.IdRef="WindowScope_53" InformativeScreenshot="38e2eca288254f3ad8041cd8390395a7" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
+                    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,812" sap2010:WorkflowViewState.IdRef="WindowScope_53" InformativeScreenshot="38e2eca288254f3ad8041cd8390395a7" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
                       <ui:WindowScope.Body>
                         <ActivityAction x:TypeArguments="x:Object">
                           <ActivityAction.Argument>
@@ -390,7 +390,7 @@
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="789,1707" sap2010:WorkflowViewState.IdRef="WindowScope_54" InformativeScreenshot="44635abdf597c27459c6a7d9b0f139c7" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
+                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="789,1707" sap2010:WorkflowViewState.IdRef="WindowScope_54" InformativeScreenshot="44635abdf597c27459c6a7d9b0f139c7" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
                           <ui:WindowScope.Body>
                             <ActivityAction x:TypeArguments="x:Object">
                               <ActivityAction.Argument>
@@ -554,7 +554,7 @@
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="434,1368" sap2010:WorkflowViewState.IdRef="WindowScope_55" InformativeScreenshot="60cda4be760df5d3c52756317a804cf9" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
+                                <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="434,1368" sap2010:WorkflowViewState.IdRef="WindowScope_55" InformativeScreenshot="60cda4be760df5d3c52756317a804cf9" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
                                   <ui:WindowScope.Body>
                                     <ActivityAction x:TypeArguments="x:Object">
                                       <ActivityAction.Argument>
@@ -688,7 +688,7 @@
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
-                                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'iexplore.exe Aplicativos'" sap:VirtualizedContainerService.HintSize="434,570" sap2010:WorkflowViewState.IdRef="WindowScope_60" InformativeScreenshot="b06293aa7a409ed1560830d0cb4fb66f" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
+                                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'iexplore.exe Aplicativos'" sap:VirtualizedContainerService.HintSize="434,570" sap2010:WorkflowViewState.IdRef="WindowScope_60" InformativeScreenshot="b06293aa7a409ed1560830d0cb4fb66f" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
                                           <ui:WindowScope.Body>
                                             <ActivityAction x:TypeArguments="x:Object">
                                               <ActivityAction.Argument>
@@ -794,7 +794,7 @@
                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
-                                            <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="434,1692" sap2010:WorkflowViewState.IdRef="WindowScope_57" InformativeScreenshot="60cda4be760df5d3c52756317a804cf9" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
+                                            <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="434,1692" sap2010:WorkflowViewState.IdRef="WindowScope_57" InformativeScreenshot="60cda4be760df5d3c52756317a804cf9" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
                                               <ui:WindowScope.Body>
                                                 <ActivityAction x:TypeArguments="x:Object">
                                                   <ActivityAction.Argument>
@@ -954,7 +954,7 @@
                                     <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="452,1376" sap2010:WorkflowViewState.IdRef="WindowScope_58" InformativeScreenshot="2995ba6e20f3e1745ff10ca735ecb99b" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
+                                <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="452,1376" sap2010:WorkflowViewState.IdRef="WindowScope_58" InformativeScreenshot="2995ba6e20f3e1745ff10ca735ecb99b" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
                                   <ui:WindowScope.Body>
                                     <ActivityAction x:TypeArguments="x:Object">
                                       <ActivityAction.Argument>
@@ -1172,7 +1172,7 @@
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="831,1927" sap2010:WorkflowViewState.IdRef="WindowScope_2" InformativeScreenshot="8cbc1ac2fc0f7a8a451cadf67b85d707" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
+                <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="831,1927" sap2010:WorkflowViewState.IdRef="WindowScope_2" InformativeScreenshot="8cbc1ac2fc0f7a8a451cadf67b85d707" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
                   <ui:WindowScope.Body>
                     <ActivityAction x:TypeArguments="x:Object">
                       <ActivityAction.Argument>
@@ -1319,7 +1319,7 @@
                               <ui:ImageTarget Image="{x:Null}" Accuracy="0.95" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAjAAAAAPCAYAAAD6QvU+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARUSURBVHhe7ZpLbhtBDER1/4v6CFk67gWBUqWKzW71xJgBFw9ifcjIYwcRkrz+/Pn6bpqmaZqmuRP9AaZpmqZpmtvRH2Capmmaprkd/QGmaZqmaZrb8fYB5vV6/UOWDXgf9cxnVC9+nZNZ5MrP2Nn5DfB97r7nsXeXr/eu3PX5Vt/3qa+vfxav4dNnurLf38Pz9PP8eQZvInkgLkN/zNxTnsLtOr2bhWZvRvRX934DfI877/cOX+MTePpzPvH19c/idXz6bKv7/T28hn6uP8/gTSQPxGXoj5l7ylO43UwjmGV7MatbyguyPWTk7rbKQqsMfc4yHXPsccYeovKZxxniMrcXmjPVZbDDuzE7HaCPROZ64XMWejdT2u2xZnAPPbeHPubcjR530ONX1WFUrrwrsyAy7GR7ys90zGoPfc5Co++6mMWsMvYd2IuZ90PPvPDdK3ZZs6+yIDLXCx8z7nHGfexwprrocxaas9Az7+kc/wCTvTpcb6YRzCp72S1F9LM9zNysst29SlbdcX5lZ/VOdnPMMx0zsrJTzdh3e9mN2V6WxayymY4ZmfVclu3hnGVjru45P9u5ImO/uleZVXZ6j/XunqN6z80qW9VqVhr91RurfswzrWaVVfZwVvqppP8HJssC7mSvDteb6fB299hzVO6t+KhXMqS6t3JD+dxRO5U7mY86y5R2fvVmlmV+9cb/zpR2fqarGfeQ6j2llZ/tuP3BSua6sx7qnRunMmb3zuzuYOd2tbeqZ13nV2/EzB2keov1iSzrPZntv4FR3fCy12BozHiuaGTljvMco8u4XsVHnWWhA/addnNoBDPs4My4LuOy7Mbs/umbY2awiz2ncTdQPdZXZEo7f2gm62ZZwL6aK1r5lRsB+lmGvsqxx5pxXednO5wxqodepVvNHDu3q71VPWYGu9hzupKpDoI+95yOXUT1WPPMRPZkPvonJPZCu1fFyBjMuIsaWd3LbjGVeys+6urtQXWvMiutfNcZZNmgcp91lint/OpNd4/ZvbGydyJT2vmuN8i61b1sZ6aVX90ZVLOsh5z4tbMbKxmS7bHezRw7t6u9Vc2ZY+WGylb7Fc0ZUt3LbjyZSz7AZHNGdo/1bpZ5Cteb3XTzFdmYs8zNqBG3M8sY1125OdPKHzPrSqa086s3TmRjru4p7fxM85xlMWdZ1lNa+dnOFVnmV29m80yreTVz3SxTWlHd3+mt6lnX+Ss3ZrusY57pE1nWezKX/CfebM5QveEFp7LId72Z7+6orKLVHmYxo686rNFH2I8d9NHjDHGZ21vVCN5Te7OMfUTtsFY3Ml3phre6hzrzhxe4LGb0Yw6NXfZjxgxzlQWcZTtXZMHqXsXHHD30MVdZ1lV5JVM+auVnOyoL2P9UB+gjn9xwXviYc7eiA/ad5n5o9MJH/STePsA0zVN48m/a36Cf57X0822adfoDTPNI+g+EzxjPD1Gd5hz9jJtmla/vvyd22P15yL25AAAAAElFTkSuQmCC" />
                             </ui:ImageFound.Image>
                             <ui:ImageFound.Target>
-                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="298922fa-965a-45b8-b446-1a3c031aa3d6" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;" TimeoutMS="2000" WaitForReady="INTERACTIVE" />
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="298922fa-965a-45b8-b446-1a3c031aa3d6" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;" TimeoutMS="2000" WaitForReady="INTERACTIVE" />
                             </ui:ImageFound.Target>
                           </ui:ImageFound>
                         </Sequence>
@@ -1356,7 +1356,7 @@
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,1237" sap2010:WorkflowViewState.IdRef="WindowScope_13" InformativeScreenshot="d7bf69ee3dfb20073b2c47a1ae8666d8" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
+                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,1237" sap2010:WorkflowViewState.IdRef="WindowScope_13" InformativeScreenshot="d7bf69ee3dfb20073b2c47a1ae8666d8" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
                           <ui:WindowScope.Body>
                             <ActivityAction x:TypeArguments="x:Object">
                               <ActivityAction.Argument>
@@ -1439,7 +1439,7 @@
                                     <ui:ImageTarget Image="{x:Null}" Accuracy="0.95" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAjAAAAAPCAYAAAD6QvU+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARUSURBVHhe7ZpLbhtBDER1/4v6CFk67gWBUqWKzW71xJgBFw9ifcjIYwcRkrz+/Pn6bpqmaZqmuRP9AaZpmqZpmtvRH2Capmmaprkd/QGmaZqmaZrb8fYB5vV6/UOWDXgf9cxnVC9+nZNZ5MrP2Nn5DfB97r7nsXeXr/eu3PX5Vt/3qa+vfxav4dNnurLf38Pz9PP8eQZvInkgLkN/zNxTnsLtOr2bhWZvRvRX934DfI877/cOX+MTePpzPvH19c/idXz6bKv7/T28hn6uP8/gTSQPxGXoj5l7ylO43UwjmGV7MatbyguyPWTk7rbKQqsMfc4yHXPsccYeovKZxxniMrcXmjPVZbDDuzE7HaCPROZ64XMWejdT2u2xZnAPPbeHPubcjR530ONX1WFUrrwrsyAy7GR7ys90zGoPfc5Co++6mMWsMvYd2IuZ90PPvPDdK3ZZs6+yIDLXCx8z7nHGfexwprrocxaas9Az7+kc/wCTvTpcb6YRzCp72S1F9LM9zNysst29SlbdcX5lZ/VOdnPMMx0zsrJTzdh3e9mN2V6WxayymY4ZmfVclu3hnGVjru45P9u5ImO/uleZVXZ6j/XunqN6z80qW9VqVhr91RurfswzrWaVVfZwVvqppP8HJssC7mSvDteb6fB299hzVO6t+KhXMqS6t3JD+dxRO5U7mY86y5R2fvVmlmV+9cb/zpR2fqarGfeQ6j2llZ/tuP3BSua6sx7qnRunMmb3zuzuYOd2tbeqZ13nV2/EzB2keov1iSzrPZntv4FR3fCy12BozHiuaGTljvMco8u4XsVHnWWhA/addnNoBDPs4My4LuOy7Mbs/umbY2awiz2ncTdQPdZXZEo7f2gm62ZZwL6aK1r5lRsB+lmGvsqxx5pxXednO5wxqodepVvNHDu3q71VPWYGu9hzupKpDoI+95yOXUT1WPPMRPZkPvonJPZCu1fFyBjMuIsaWd3LbjGVeys+6urtQXWvMiutfNcZZNmgcp91lint/OpNd4/ZvbGydyJT2vmuN8i61b1sZ6aVX90ZVLOsh5z4tbMbKxmS7bHezRw7t6u9Vc2ZY+WGylb7Fc0ZUt3LbjyZSz7AZHNGdo/1bpZ5Cteb3XTzFdmYs8zNqBG3M8sY1125OdPKHzPrSqa086s3TmRjru4p7fxM85xlMWdZ1lNa+dnOFVnmV29m80yreTVz3SxTWlHd3+mt6lnX+Ss3ZrusY57pE1nWezKX/CfebM5QveEFp7LId72Z7+6orKLVHmYxo686rNFH2I8d9NHjDHGZ21vVCN5Te7OMfUTtsFY3Ml3phre6hzrzhxe4LGb0Yw6NXfZjxgxzlQWcZTtXZMHqXsXHHD30MVdZ1lV5JVM+auVnOyoL2P9UB+gjn9xwXviYc7eiA/ad5n5o9MJH/STePsA0zVN48m/a36Cf57X0822adfoDTPNI+g+EzxjPD1Gd5hz9jJtmla/vvyd22P15yL25AAAAAElFTkSuQmCC" />
                                   </ui:ImageFound.Image>
                                   <ui:ImageFound.Target>
-                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d5f334a4-7a68-435a-90aa-61bd3bead16e" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;" TimeoutMS="2000" WaitForReady="INTERACTIVE" />
+                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d5f334a4-7a68-435a-90aa-61bd3bead16e" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;" TimeoutMS="2000" WaitForReady="INTERACTIVE" />
                                   </ui:ImageFound.Target>
                                 </ui:ImageFound>
                               </Sequence>
@@ -1476,7 +1476,7 @@
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
                                 <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="434,61" sap2010:WorkflowViewState.IdRef="WriteLine_3" Text="Local já existe" />
-                                <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'wfica32.exe Aplicativos'" sap:VirtualizedContainerService.HintSize="434,354" sap2010:WorkflowViewState.IdRef="WindowScope_61" InformativeScreenshot="d2d02b3a40a0cbc112975086d6d73c90" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
+                                <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'wfica32.exe Aplicativos'" sap:VirtualizedContainerService.HintSize="434,354" sap2010:WorkflowViewState.IdRef="WindowScope_61" InformativeScreenshot="d2d02b3a40a0cbc112975086d6d73c90" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
                                   <ui:WindowScope.Body>
                                     <ActivityAction x:TypeArguments="x:Object">
                                       <ActivityAction.Argument>
@@ -1627,7 +1627,7 @@
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
-                                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="434,782" sap2010:WorkflowViewState.IdRef="WindowScope_4" InformativeScreenshot="00cffba40f05bb24c07e197c3dbf1dfa" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
+                                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="434,782" sap2010:WorkflowViewState.IdRef="WindowScope_4" InformativeScreenshot="00cffba40f05bb24c07e197c3dbf1dfa" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
                                           <ui:WindowScope.Body>
                                             <ActivityAction x:TypeArguments="x:Object">
                                               <ActivityAction.Argument>
@@ -1700,7 +1700,7 @@
                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
-                                            <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="789,2286" sap2010:WorkflowViewState.IdRef="WindowScope_5" InformativeScreenshot="00cffba40f05bb24c07e197c3dbf1dfa" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
+                                            <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="789,2286" sap2010:WorkflowViewState.IdRef="WindowScope_5" InformativeScreenshot="00cffba40f05bb24c07e197c3dbf1dfa" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
                                               <ui:WindowScope.Body>
                                                 <ActivityAction x:TypeArguments="x:Object">
                                                   <ActivityAction.Argument>
@@ -1897,7 +1897,7 @@
                                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                       </scg:Dictionary>
                                                     </sap:WorkflowViewStateService.ViewState>
-                                                    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="789,3837" sap2010:WorkflowViewState.IdRef="WindowScope_17" InformativeScreenshot="4cff7ebcbed23256840750a5dfec0466" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
+                                                    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="789,3837" sap2010:WorkflowViewState.IdRef="WindowScope_17" InformativeScreenshot="4cff7ebcbed23256840750a5dfec0466" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
                                                       <ui:WindowScope.Body>
                                                         <ActivityAction x:TypeArguments="x:Object">
                                                           <ActivityAction.Argument>
@@ -1972,7 +1972,7 @@
                                                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                     </scg:Dictionary>
                                                                   </sap:WorkflowViewStateService.ViewState>
-                                                                  <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,252" sap2010:WorkflowViewState.IdRef="WindowScope_25" InformativeScreenshot="1e7f6da7488252fb73c25fe8608bde0e" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
+                                                                  <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,252" sap2010:WorkflowViewState.IdRef="WindowScope_25" InformativeScreenshot="1e7f6da7488252fb73c25fe8608bde0e" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
                                                                     <ui:WindowScope.Body>
                                                                       <ActivityAction x:TypeArguments="x:Object">
                                                                         <ActivityAction.Argument>
@@ -2026,7 +2026,7 @@
                                                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                         </scg:Dictionary>
                                                                       </sap:WorkflowViewStateService.ViewState>
-                                                                      <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,242" sap2010:WorkflowViewState.IdRef="WindowScope_26" InformativeScreenshot="1e7f6da7488252fb73c25fe8608bde0e" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
+                                                                      <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,242" sap2010:WorkflowViewState.IdRef="WindowScope_26" InformativeScreenshot="1e7f6da7488252fb73c25fe8608bde0e" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
                                                                         <ui:WindowScope.Body>
                                                                           <ActivityAction x:TypeArguments="x:Object">
                                                                             <ActivityAction.Argument>
@@ -2079,7 +2079,7 @@
                                                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                     </scg:Dictionary>
                                                                   </sap:WorkflowViewStateService.ViewState>
-                                                                  <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,742" sap2010:WorkflowViewState.IdRef="WindowScope_19" InformativeScreenshot="195a1212b65b38cd8fabee4d4ed944d2" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
+                                                                  <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,742" sap2010:WorkflowViewState.IdRef="WindowScope_19" InformativeScreenshot="195a1212b65b38cd8fabee4d4ed944d2" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
                                                                     <ui:WindowScope.Body>
                                                                       <ActivityAction x:TypeArguments="x:Object">
                                                                         <ActivityAction.Argument>
@@ -2184,7 +2184,7 @@
                                                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                             </scg:Dictionary>
                                                                           </sap:WorkflowViewStateService.ViewState>
-                                                                          <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,742" sap2010:WorkflowViewState.IdRef="WindowScope_20" InformativeScreenshot="195a1212b65b38cd8fabee4d4ed944d2" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
+                                                                          <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,742" sap2010:WorkflowViewState.IdRef="WindowScope_20" InformativeScreenshot="195a1212b65b38cd8fabee4d4ed944d2" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
                                                                             <ui:WindowScope.Body>
                                                                               <ActivityAction x:TypeArguments="x:Object">
                                                                                 <ActivityAction.Argument>
@@ -2265,7 +2265,7 @@
                                                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                             </scg:Dictionary>
                                                                           </sap:WorkflowViewStateService.ViewState>
-                                                                          <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,742" sap2010:WorkflowViewState.IdRef="WindowScope_21" InformativeScreenshot="195a1212b65b38cd8fabee4d4ed944d2" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
+                                                                          <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,742" sap2010:WorkflowViewState.IdRef="WindowScope_21" InformativeScreenshot="195a1212b65b38cd8fabee4d4ed944d2" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
                                                                             <ui:WindowScope.Body>
                                                                               <ActivityAction x:TypeArguments="x:Object">
                                                                                 <ActivityAction.Argument>
@@ -2465,7 +2465,7 @@
                                                                 </scg:Dictionary>
                                                               </sap:WorkflowViewStateService.ViewState>
                                                               <Delay DisplayName="Espera 1 seg" Duration="00:00:01" sap:VirtualizedContainerService.HintSize="560,22" sap2010:WorkflowViewState.IdRef="Delay_2" />
-                                                              <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="560,887" sap2010:WorkflowViewState.IdRef="WindowScope_35" InformativeScreenshot="a1d364d136c090c05f84e57d68881b6c" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
+                                                              <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="560,887" sap2010:WorkflowViewState.IdRef="WindowScope_35" InformativeScreenshot="a1d364d136c090c05f84e57d68881b6c" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
                                                                 <ui:WindowScope.Body>
                                                                   <ActivityAction x:TypeArguments="x:Object">
                                                                     <ActivityAction.Argument>
@@ -2543,7 +2543,7 @@
                                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                           </scg:Dictionary>
                                                         </sap:WorkflowViewStateService.ViewState>
-                                                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="434,1332" sap2010:WorkflowViewState.IdRef="WindowScope_6" InformativeScreenshot="1d3a424a669768e4bd78cda60234c82b" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
+                                                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="434,1332" sap2010:WorkflowViewState.IdRef="WindowScope_6" InformativeScreenshot="1d3a424a669768e4bd78cda60234c82b" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
                                                           <ui:WindowScope.Body>
                                                             <ActivityAction x:TypeArguments="x:Object">
                                                               <ActivityAction.Argument>
@@ -2690,7 +2690,7 @@
                                                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                   </scg:Dictionary>
                                                                 </sap:WorkflowViewStateService.ViewState>
-                                                                <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="434,1304" sap2010:WorkflowViewState.IdRef="WindowScope_7" InformativeScreenshot="cf414dfae49021f09a7fb68e78f5e70a" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
+                                                                <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="434,1304" sap2010:WorkflowViewState.IdRef="WindowScope_7" InformativeScreenshot="cf414dfae49021f09a7fb68e78f5e70a" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
                                                                   <ui:WindowScope.Body>
                                                                     <ActivityAction x:TypeArguments="x:Object">
                                                                       <ActivityAction.Argument>
@@ -2830,7 +2830,7 @@
                                                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                       </scg:Dictionary>
                                                                     </sap:WorkflowViewStateService.ViewState>
-                                                                    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="897,986" sap2010:WorkflowViewState.IdRef="WindowScope_8" InformativeScreenshot="b24c98b5f5f4bfab170274966775a1a5" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
+                                                                    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="897,986" sap2010:WorkflowViewState.IdRef="WindowScope_8" InformativeScreenshot="b24c98b5f5f4bfab170274966775a1a5" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
                                                                       <ui:WindowScope.Body>
                                                                         <ActivityAction x:TypeArguments="x:Object">
                                                                           <ActivityAction.Argument>
@@ -3314,7 +3314,7 @@
                                                                                     <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAACEAAAAkCAYAAAAHKVPcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC3SURBVFhH7ZLRCcQgDIbd6XbqHK7hFh2kT/d0G3SEPuaw8JdQ4hFtrD3IDx+IaPJhDNu2Ui9eUxL3z7gEOCRCCAf8wBWqJM6NrUQujWOYBEYB+KFW/m8cvOmwl9gXrPkwiR64BFBLvD8zlZAu1KCWiDFSCQsRDcVxWL2Ghp9/wiVASSKlScWyJMqRanCaJTRxCcQlEJdAXALpKpGLa+kmURupBqdJwhqXAM+WyAK3SaCZhHTBnpW+q+9LFyRSFrQAAAAASUVORK5CYII=" />
                                                                                   </ui:ClickImage.Image>
                                                                                   <ui:ClickImage.Target>
-                                                                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="319cfd7d-d934-4e35-92ad-8a49a2331483" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
+                                                                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="319cfd7d-d934-4e35-92ad-8a49a2331483" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
                                                                                       <ui:Target.TimeoutMS>
                                                                                         <InArgument x:TypeArguments="x:Int32" />
                                                                                       </ui:Target.TimeoutMS>
@@ -3358,7 +3358,7 @@
                                                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                               </scg:Dictionary>
                                                                             </sap:WorkflowViewStateService.ViewState>
-                                                                            <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="434,344" sap2010:WorkflowViewState.IdRef="WindowScope_46" InformativeScreenshot="57cd17d557d92449d390b87d2b9aa764" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
+                                                                            <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="434,344" sap2010:WorkflowViewState.IdRef="WindowScope_46" InformativeScreenshot="57cd17d557d92449d390b87d2b9aa764" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
                                                                               <ui:WindowScope.Body>
                                                                                 <ActivityAction x:TypeArguments="x:Object">
                                                                                   <ActivityAction.Argument>
@@ -3426,7 +3426,7 @@
                                                                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                                   </scg:Dictionary>
                                                                                 </sap:WorkflowViewStateService.ViewState>
-                                                                                <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,1200" sap2010:WorkflowViewState.IdRef="WindowScope_27" InformativeScreenshot="88bf823e02da1bc16ae83be1551db651" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
+                                                                                <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,1200" sap2010:WorkflowViewState.IdRef="WindowScope_27" InformativeScreenshot="88bf823e02da1bc16ae83be1551db651" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
                                                                                   <ui:WindowScope.Body>
                                                                                     <ActivityAction x:TypeArguments="x:Object">
                                                                                       <ActivityAction.Argument>
@@ -3599,7 +3599,7 @@
                                                                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                                       </scg:Dictionary>
                                                                                     </sap:WorkflowViewStateService.ViewState>
-                                                                                    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="602,1013" sap2010:WorkflowViewState.IdRef="WindowScope_59" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
+                                                                                    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="602,1013" sap2010:WorkflowViewState.IdRef="WindowScope_59" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
                                                                                       <ui:WindowScope.Body>
                                                                                         <ActivityAction x:TypeArguments="x:Object">
                                                                                           <ActivityAction.Argument>
@@ -3777,7 +3777,7 @@
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="831,4916" sap2010:WorkflowViewState.IdRef="WindowScope_10" InformativeScreenshot="00cffba40f05bb24c07e197c3dbf1dfa" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
+                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Aplicativ Transpare'" sap:VirtualizedContainerService.HintSize="831,4916" sap2010:WorkflowViewState.IdRef="WindowScope_10" InformativeScreenshot="00cffba40f05bb24c07e197c3dbf1dfa" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
                           <ui:WindowScope.Body>
                             <ActivityAction x:TypeArguments="x:Object">
                               <ActivityAction.Argument>
@@ -4198,7 +4198,7 @@
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
-                                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,928" sap2010:WorkflowViewState.IdRef="WindowScope_14" InformativeScreenshot="4ac7a331a5aef68ad995057b00d4116f" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
+                                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,928" sap2010:WorkflowViewState.IdRef="WindowScope_14" InformativeScreenshot="4ac7a331a5aef68ad995057b00d4116f" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
                                           <ui:WindowScope.Body>
                                             <ActivityAction x:TypeArguments="x:Object">
                                               <ActivityAction.Argument>
@@ -4315,7 +4315,7 @@
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
-                                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,636" sap2010:WorkflowViewState.IdRef="WindowScope_16" InformativeScreenshot="4ac7a331a5aef68ad995057b00d4116f" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
+                                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,636" sap2010:WorkflowViewState.IdRef="WindowScope_16" InformativeScreenshot="4ac7a331a5aef68ad995057b00d4116f" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
                                           <ui:WindowScope.Body>
                                             <ActivityAction x:TypeArguments="x:Object">
                                               <ActivityAction.Argument>

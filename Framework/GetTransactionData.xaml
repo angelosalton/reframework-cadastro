@@ -11,7 +11,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>829,2255</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>799,2283</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>GetTransactionData_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="26">
@@ -72,14 +72,14 @@
       <AssemblyReference>System.ValueTuple</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Description: Get data from spreadsheets, databases, email, web API or UiPath server queues. If no new data, set out_TransactionItem to Nothing. &#xA;&#xA;For a linear process (not repetitive), set out_TransactionItem only for in_TransactionNumber 1 - first and only transaction. &#xA;&#xA;If the process is repeatable, set io_TransactionData once for in_TransactionNumber 1, then assign a new out_TransactionItem by using the in_TransactionNumber to index io_TransactionData. Be aware that, at the end of the io_TransactionData collection, it is your responsibility to set out_TransactionItem to Nothing, thus ending the process." DisplayName="GetTransactionData" sap:VirtualizedContainerService.HintSize="809,2195" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Description: Get data from spreadsheets, databases, email, web API or UiPath server queues. If no new data, set out_TransactionItem to Nothing. &#xA;&#xA;For a linear process (not repetitive), set out_TransactionItem only for in_TransactionNumber 1 - first and only transaction. &#xA;&#xA;If the process is repeatable, set io_TransactionData once for in_TransactionNumber 1, then assign a new out_TransactionItem by using the in_TransactionNumber to index io_TransactionData. Be aware that, at the end of the io_TransactionData collection, it is your responsibility to set out_TransactionItem to Nothing, thus ending the process." DisplayName="GetTransactionData" sap:VirtualizedContainerService.HintSize="809,2218" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap2010:Annotation.AnnotationText="Consulta banco de dados Access de cadastros e adiciona item à fila." DisplayName="Consulta base cadastro" sap:VirtualizedContainerService.HintSize="767,1342" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence sap2010:Annotation.AnnotationText="Consulta banco de dados Access de cadastros e adiciona item à fila." DisplayName="Consulta base cadastro" sap:VirtualizedContainerService.HintSize="767,1365" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <Sequence.Variables>
         <Variable x:TypeArguments="sd:DataTable" Name="itens" />
         <Variable x:TypeArguments="ui:DatabaseConnection" Name="dbconn" />
@@ -93,8 +93,8 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <ui:DatabaseConnect DatabaseConnection="[dbconn]" DisplayName="Connect" sap:VirtualizedContainerService.HintSize="725,59" sap2010:WorkflowViewState.IdRef="DatabaseConnect_2" ProviderName="System.Data.OleDb" ConnectionString="[&quot;Provider=Microsoft.Jet.OLEDB.4.0;Data Source=&quot;+in_Config(&quot;CaminhoRedeBase&quot;).ToString]" />
-      <ui:Comment sap:VirtualizedContainerService.HintSize="725,151" sap2010:WorkflowViewState.IdRef="Comment_1" Text="// Restrições impostas na query:&#xA;&#xA;- não cadastra fornecedores do exterior&#xA;- apenas novos cadastros (não processa alterações: não implementado)&#xD;&#xA;- tipo do contribuinte foi preenchido" />
-      <ui:ExecuteQuery ContinueOnError="{x:Null}" TimeoutMS="{x:Null}" CommandType="Text" DataTable="[itens]" DisplayName="Consulta cadastros em aberto" ExistingDbConnection="[dbconn]" sap:VirtualizedContainerService.HintSize="725,88" sap2010:WorkflowViewState.IdRef="ExecuteQuery_2" Sql="SELECT TOP 1 * FROM Cadastros WHERE [status] = 'Qualificado' AND [tarefa] = 'Novo' AND [end_pais] = 'Brasil' AND [tipo_contribuinte] &lt;&gt; '' ORDER BY [hora_inicio] ASC;">
+      <ui:Comment sap:VirtualizedContainerService.HintSize="725,170" sap2010:WorkflowViewState.IdRef="Comment_1" Text="// Restrições impostas na query:&#xA;&#xA;- não cadastra fornecedores do exterior&#xA;- apenas novos cadastros (não processa alterações: não implementado)&#xA;- tipo do contribuinte foi preenchido&#xD;&#xA;- tipo do fornecedor não é &quot;Outros&quot;" />
+      <ui:ExecuteQuery ContinueOnError="{x:Null}" TimeoutMS="{x:Null}" CommandType="Text" DataTable="[itens]" DisplayName="Consulta cadastros em aberto" ExistingDbConnection="[dbconn]" sap:VirtualizedContainerService.HintSize="725,88" sap2010:WorkflowViewState.IdRef="ExecuteQuery_2" Sql="SELECT TOP 1 * FROM Cadastros WHERE [status] = 'Qualificado' AND [tarefa] = 'Novo' AND [end_pais] = 'Brasil' AND [tipo_contribuinte] &lt;&gt; '' AND [tipo_fornecedor] &lt;&gt; 'Outros' ORDER BY [hora_inicio] ASC;">
         <ui:ExecuteQuery.Parameters>
           <scg:Dictionary x:TypeArguments="x:String, Argument" />
         </ui:ExecuteQuery.Parameters>
