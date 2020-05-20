@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="CloseAllApplications" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="496,1283" sap2010:WorkflowViewState.IdRef="CloseAllApplications_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="CloseAllApplications" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="748,1298" sap2010:WorkflowViewState.IdRef="CloseAllApplications_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -43,9 +43,10 @@
       <AssemblyReference>System.ServiceModel</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities</AssemblyReference>
       <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Description: Here all working applications will be soft closed&#xA;&#xA;Pre Condition: N/A&#xA;Post Condtion: Applications closed" DisplayName="Normal App Closing Sequence" sap:VirtualizedContainerService.HintSize="476,1223" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence sap2010:Annotation.AnnotationText="Description: Here all working applications will be soft closed&#xA;&#xA;Pre Condition: N/A&#xA;Post Condtion: Applications closed" DisplayName="Normal App Closing Sequence" sap:VirtualizedContainerService.HintSize="476,1233" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -53,21 +54,34 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:LogMessage DisplayName="Log message" sap:VirtualizedContainerService.HintSize="434,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Closing applications...&quot;]" />
-    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela applet EBS" sap:VirtualizedContainerService.HintSize="434,782" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="dca4e26f446fed8fe272c9822bf9f7d9" Selector="&lt;wnd app='wfica32.exe' cls='Transparent Windows Client' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0 -*' /&gt;">
+    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela applet EBS" sap:VirtualizedContainerService.HintSize="434,792" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="5bd7a78d8c53c320348320fd8c7b1fa0" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
       <ui:WindowScope.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Atalho de teclas fecha EBS" sap:VirtualizedContainerService.HintSize="376,636" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence DisplayName="Atalho de teclas fecha EBS" sap:VirtualizedContainerService.HintSize="376,646" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SpecialKey="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="334,116" sap2010:WorkflowViewState.IdRef="SendHotkey_1" Key="q" KeyModifiers="Alt">
-              <ui:SendHotkey.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}">
+            <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Image 'iexplore.exe Aplicativos'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="ClickImage_1" KeyModifiers="None" MouseButton="BTN_LEFT">
+              <ui:ClickImage.CursorPosition>
+                <ui:CursorPosition Position="Center">
+                  <ui:CursorPosition.OffsetX>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetX>
+                  <ui:CursorPosition.OffsetY>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetY>
+                </ui:CursorPosition>
+              </ui:ClickImage.CursorPosition>
+              <ui:ClickImage.Image>
+                <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAC8AAAAXCAYAAACbDhZsAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC3SURBVFhH7ZCBCsQwCEP7/z/dQ7iAs9G6XTs56IOCTYx1a/2POctXcZav4ixfhbt8a/u+a9VsOgXDd37ACm4tz3SpPV3DvFkPjgd1ELBBO8zWnicwz+uJsppBjYKzodleVmezmkGVRnuAroXonvVQZ7OaQY2Cs6HZXlZns5qL6jaRBwR9l9reQeQJd+/gorpNX535onm+57E+C7LMA77zgOihHfz0mv47OG/y7muLOctXcZavofcP9u2aOQS2O8oAAAAASUVORK5CYII=" />
+              </ui:ClickImage.Image>
+              <ui:ClickImage.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="5c91b142-5c71-48e0-b3d1-a554bc963025">
                   <ui:Target.TimeoutMS>
                     <InArgument x:TypeArguments="x:Int32" />
                   </ui:Target.TimeoutMS>
@@ -75,11 +89,24 @@
                     <InArgument x:TypeArguments="ui:WaitForReady" />
                   </ui:Target.WaitForReady>
                 </ui:Target>
-              </ui:SendHotkey.Target>
-            </ui:SendHotkey>
-            <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into" sap:VirtualizedContainerService.HintSize="334,96" sap2010:WorkflowViewState.IdRef="TypeInto_1" Text="d">
-              <ui:TypeInto.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}">
+              </ui:ClickImage.Target>
+            </ui:ClickImage>
+            <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Image 'iexplore.exe Aplicativos'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="ClickImage_2" KeyModifiers="None" MouseButton="BTN_LEFT">
+              <ui:ClickImage.CursorPosition>
+                <ui:CursorPosition Position="Center">
+                  <ui:CursorPosition.OffsetX>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetX>
+                  <ui:CursorPosition.OffsetY>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetY>
+                </ui:CursorPosition>
+              </ui:ClickImage.CursorPosition>
+              <ui:ClickImage.Image>
+                <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAALAAAAARCAYAAAB99yYVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHNSURBVGhD7ZPRrsMwCEP7/z+9Kz9Y8nWBkq1JVSlHQgPsELp1x2ezeTH7Bd68mv0Cb17NfoE3r2a/wJtXE77Ax3H8iy4jXuXbc1eMzlX/rzvdOWsE3MWYwcpn6XDaJlpw9tIz5nPmyOw795j9nUX4nTN2eOK5Kk7bRAtGXwxD0Zq5e4iedw8174NKU6i7T/uZBiLNe4B91bznn0Rr+t0DKo1kmvaZe4/hRP2ojnyrON16tUj0AMTzbFbl8zNdzaEWndHeXTm48mX+rA8qTen0kXutZFonB16vILwRi2hUqJ7ljmvVue5M5Y751ZmMkVmZDiotI/ONzOp4K8/V/Bm0bowW1SBZ7rhWnYtqRoZ63Ks5yLTqjAJNg1zlmQ6impGRadqPPJzLIJEXuMdjNacboyW053qmRXNIdwYYmUO+nd/JlV9mZTrwWsm0Tv/qnspLOp6VnDaIlsqWRl5pGd0ZoKuRqAfYx6d67sw7PjBSX3mVkblAa+Rek04OvF5BeCMW0XC0r3qWR2QzADXvg0oDV339dK/WkeY9oH3Vsz7wGtA/qjmVN+ux77pqJPN4fxXP3PogT33Rmzk88mvqv5axipV3beazf83Ni/l8/gByc4bIeiZlzwAAAABJRU5ErkJggg==" />
+              </ui:ClickImage.Image>
+              <ui:ClickImage.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="627c6388-ce04-4720-825f-ac398afe789c">
                   <ui:Target.TimeoutMS>
                     <InArgument x:TypeArguments="x:Int32" />
                   </ui:Target.TimeoutMS>
@@ -87,11 +114,14 @@
                     <InArgument x:TypeArguments="ui:WaitForReady" />
                   </ui:Target.WaitForReady>
                 </ui:Target>
-              </ui:TypeInto.Target>
-            </ui:TypeInto>
-            <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DelayMS="1000" DisplayName="Type Into" sap:VirtualizedContainerService.HintSize="334,96" sap2010:WorkflowViewState.IdRef="TypeInto_2" Text="d">
-              <ui:TypeInto.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}">
+              </ui:ClickImage.Target>
+            </ui:ClickImage>
+            <ui:WaitImageAppear FoundElement="{x:Null}" DisplayName="Find Image 'iexplore.exe Aplicativos'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="WaitImageAppear_1">
+              <ui:WaitImageAppear.Image>
+                <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAANsAAAAyCAYAAADVyK4KAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOjSURBVHhe7dprbuMwDATg3DxX6216hP7Mggim4A4oinIkuXFmgQ+RREp2jR04+7j9/Hw/RGQ9hU1kE4VNZBOFTWQThU1kE4VNZBOFTWQThU1kE4VNZBOFTWQThU1kkyVhu99vv6K6yCeaHjYLGH59fX09bjcFTsQsDNvtN2z3+z3sFfkkU8PmgwZnvN3seizqi4z0slf2Vhw53+9ZcX+rf2Zm1/OinhlGzq7ez7aw7Xq7tX7g3oOYYeU1cPboNWbf047n2BJde9X9VM/lvmzftLBFQePARftma11nx/VXXgNnj15j9j3teI6R7Lor7ql6Jvel9xktjsqCBrsCN/KQgNd5zD2eP4P7UOP1Xi2CvtZZ+OS6n0e1aE+r1lrzn7yOMfieXs3L6r6GMa8B1nq1aB71say+PWw7vk72Hgyv+zmPW2eYrJf3VWuRXr/N/droeEZtdL1XY9WajXmOMc+rtayvsg4vh42DZqGyNbA5By46ZxW7XvchuHprHOF6tnfkXJad1ZtXxj3Zvqg22l+R9Y6cWe3N+qJ92VkwPWw2twvDs/5/2M74pwB+GP4efa01jnA92xvNwa8z38d8D+8ZGUes7vl17uNxtR9z8Ossq/ta1Ifzwa/7Po/7WKs381LYOGiGb8r4+uq3W+tsv849rVrrLKieE829I7XqtSpjVj2vVav2sxm13vWyXq/aZ3p1OBy2KGjGLsy4Z2XgWuf6dR5nNYwj1XN4ntUq64C6ffre0XFWs3F13+i818uieu8MP7cxzzHmebVvxKlhW/V1kq9vWj0Y+/Vo3NI6x9d4vVeDrGZQ95+8x8+jWrTH1zCO1rkWzbHG+yq1iO+P9rTWsM511KJ1nkd9qPFa5FDYWkEz/qYg6jvjL0uuSs/xPZweNv2/ydfZc4zW5W8ZDlsWNGN1H7Rnf0xvtzn0DN/DUNh6QTMIENg86gMFTj7F9LAZH7ao7unrpHyKctiqQTMjYTN6u8knWBI2632+reI609tNPkEpbCNBMxYe22OfUT2it5tcXTdso0F7hQInVzY9bHir4Wvkkbebvk7KFaVhO/JWQ9DgeUad3m5yVdPD5oMGUV+L3m5yVc2wHQmaefXNZvR2kysKw3Y0aMaCgsDZp82jvh4FTq5methm0ddJuRqFTWST9M9sZ0LQFDa5imbYjP2GP4uCJleThs3gN/0ZovsReVfdsInIHAqbyCYKm8gmCpvIJgqbyCYKm8gmCpvIFt+Pf8F7QF8l3GACAAAAAElFTkSuQmCC" />
+              </ui:WaitImageAppear.Image>
+              <ui:WaitImageAppear.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="ca236112-76cc-4d71-bd9e-b46bbd928e3b">
                   <ui:Target.TimeoutMS>
                     <InArgument x:TypeArguments="x:Int32" />
                   </ui:Target.TimeoutMS>
@@ -99,11 +129,11 @@
                     <InArgument x:TypeArguments="ui:WaitForReady" />
                   </ui:Target.WaitForReady>
                 </ui:Target>
-              </ui:TypeInto.Target>
-            </ui:TypeInto>
+              </ui:WaitImageAppear.Target>
+            </ui:WaitImageAppear>
             <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="334,116" sap2010:WorkflowViewState.IdRef="SendHotkey_2" Key="enter" KeyModifiers="None" SpecialKey="True">
               <ui:SendHotkey.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}">
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="94b52b25-bc13-467b-b693-9f8f4067c46e">
                   <ui:Target.TimeoutMS>
                     <InArgument x:TypeArguments="x:Int32" />
                   </ui:Target.TimeoutMS>

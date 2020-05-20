@@ -5,7 +5,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>839,1224</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>748,1224</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Novo_Fornecedor_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="24">
@@ -1356,19 +1356,19 @@
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,1237" sap2010:WorkflowViewState.IdRef="WindowScope_13" InformativeScreenshot="d7bf69ee3dfb20073b2c47a1ae8666d8" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Na fazenda &quot;+faz_list(ind_fazenda).ToString+&quot;: Fornecedor &quot;+dic_dados(&quot;razao_social&quot;).ToString+&quot; já existe&quot;]" />
+                        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="434,1136" sap2010:WorkflowViewState.IdRef="WindowScope_13" InformativeScreenshot="d7bf69ee3dfb20073b2c47a1ae8666d8" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
                           <ui:WindowScope.Body>
                             <ActivityAction x:TypeArguments="x:Object">
                               <ActivityAction.Argument>
                                 <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
                               </ActivityAction.Argument>
-                              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,1091" sap2010:WorkflowViewState.IdRef="Sequence_48">
+                              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,990" sap2010:WorkflowViewState.IdRef="Sequence_48">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="Fornecedor já existe" />
                                 <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SpecialKey="{x:Null}" Activate="True" DisplayName="Vai para tela de locais" sap:VirtualizedContainerService.HintSize="334,116" sap2010:WorkflowViewState.IdRef="SendHotkey_11" Key="l" KeyModifiers="Alt">
                                   <ui:SendHotkey.Target>
                                     <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="0926b618-3c0a-4715-ada4-61852acdf2b8">
@@ -1475,7 +1475,7 @@
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="434,61" sap2010:WorkflowViewState.IdRef="WriteLine_3" Text="Local já existe" />
+                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,91" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Na fazenda &quot;+faz_list(ind_fazenda).ToString+&quot;: Fornecedor &quot;+dic_dados(&quot;razao_social&quot;).ToString+&quot;, Local&quot;+dic_dados(&quot;local&quot;).ToString+ &quot; já existe&quot;]" />
                                 <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'wfica32.exe Aplicativos'" sap:VirtualizedContainerService.HintSize="434,354" sap2010:WorkflowViewState.IdRef="WindowScope_61" InformativeScreenshot="d2d02b3a40a0cbc112975086d6d73c90" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
                                   <ui:WindowScope.Body>
                                     <ActivityAction x:TypeArguments="x:Object">
@@ -3593,25 +3593,25 @@
                                                                                       <av:Size x:Key="ShapeSize">200,66</av:Size>
                                                                                     </scg:Dictionary>
                                                                                   </sap:WorkflowViewStateService.ViewState>
-                                                                                  <Sequence DisplayName="Fim" sap:VirtualizedContainerService.HintSize="644,1105" sap2010:WorkflowViewState.IdRef="Sequence_178">
+                                                                                  <Sequence DisplayName="Fim" sap:VirtualizedContainerService.HintSize="681,1956" sap2010:WorkflowViewState.IdRef="Sequence_178">
                                                                                     <sap:WorkflowViewStateService.ViewState>
                                                                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                                       </scg:Dictionary>
                                                                                     </sap:WorkflowViewStateService.ViewState>
-                                                                                    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="602,1013" sap2010:WorkflowViewState.IdRef="WindowScope_59" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
+                                                                                    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Na janela EBS" sap:VirtualizedContainerService.HintSize="639,1864" sap2010:WorkflowViewState.IdRef="WindowScope_59" Selector="&lt;wnd app='iexplore.exe' cls='oracle.ewt.swing.JBufferedFrame' title='Aplicativos Oracle - SLC Agricola (PRD) - 11.5.10.2 (DB 10.2.0.3*' /&gt;">
                                                                                       <ui:WindowScope.Body>
                                                                                         <ActivityAction x:TypeArguments="x:Object">
                                                                                           <ActivityAction.Argument>
                                                                                             <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
                                                                                           </ActivityAction.Argument>
-                                                                                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="568,905" sap2010:WorkflowViewState.IdRef="Sequence_179">
+                                                                                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="605,1756" sap2010:WorkflowViewState.IdRef="Sequence_179">
                                                                                             <sap:WorkflowViewStateService.ViewState>
                                                                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                                               </scg:Dictionary>
                                                                                             </sap:WorkflowViewStateService.ViewState>
-                                                                                            <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SpecialKey="{x:Null}" Activate="True" DisplayName="Salva registro" sap:VirtualizedContainerService.HintSize="526,116" sap2010:WorkflowViewState.IdRef="SendHotkey_114" Key="s" KeyModifiers="Ctrl">
+                                                                                            <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SpecialKey="{x:Null}" Activate="True" DisplayName="Salva registro" sap:VirtualizedContainerService.HintSize="563,116" sap2010:WorkflowViewState.IdRef="SendHotkey_114" Key="s" KeyModifiers="Ctrl">
                                                                                               <ui:SendHotkey.Target>
                                                                                                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="5fe1ff6f-da1b-4eaf-8d49-a8aff4a615eb">
                                                                                                   <ui:Target.TimeoutMS>
@@ -3623,7 +3623,65 @@
                                                                                                 </ui:Target>
                                                                                               </ui:SendHotkey.Target>
                                                                                             </ui:SendHotkey>
-                                                                                            <Sequence sap:VirtualizedContainerService.HintSize="526,501" sap2010:WorkflowViewState.IdRef="Sequence_193">
+                                                                                            <Sequence sap:VirtualizedContainerService.HintSize="563,811" sap2010:WorkflowViewState.IdRef="Sequence_194">
+                                                                                              <Sequence.Variables>
+                                                                                                <Variable x:TypeArguments="x:Boolean" Name="ui_salvar1" />
+                                                                                              </Sequence.Variables>
+                                                                                              <sap:WorkflowViewStateService.ViewState>
+                                                                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                                                </scg:Dictionary>
+                                                                                              </sap:WorkflowViewStateService.ViewState>
+                                                                                              <ui:ImageFound DisplayName="Image Exists 'iexplore.exe Aplicativos'" Found="[ui_salvar1]" sap:VirtualizedContainerService.HintSize="521,106" sap2010:WorkflowViewState.IdRef="ImageFound_20">
+                                                                                                <ui:ImageFound.Image>
+                                                                                                  <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEUAAAA6CAYAAADm+ZQ9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHkSURBVGhD7dZRkoIwEIRhbs7VvI1H8NGlcXt3jJ0oJpOATqr+KgkI5CuknC6X8zW6L1BEgSIKFFGgiAJFFCiiQBEFiihQRIEiChRRoIhcUeZ5XlP79pwLSg5jnqZi6fGjao5Swrg+aS84TVFSkFcx0kbjNENRIHeL5UjnC42CcUG5A+Gwcxualux1etQExQsE4Xy9YfxQOLj9ZodEKT4ldrui3jA+KA1B0GFRvJ4S1hPGB8Whr0DBApGdK0UUVXpPtVWjsC0oWAh/YuvnFyJKeh3Oq3t6t3Eo4nMpi5L2ESgIC9kCwsWr1P3UNAxlSxZlvdbyHjudTn/brQsUUTMU5AGTgqzXWVBu7+lA+b/OkVBQSxgFsl7jW1EI8hEoCDdbg1MCQQoFc/aYmlxQEGG24FgMlHsSDouCcNPPcCwC4/fUOXM/ncOgsBQnVwmDfQwK46Jzqe+kKZSWIKgrCsJisAj0KgRTIJy327UNQcFf9ED5LfceUcfasOheIKgbCgCWFT2UgyEEMTByx6VztXVByYEwwigIDOzrBYJ2hWIHIRTGek4nEDQcBfuI8gwC8UlS+1rV7Z2ChRIgrYSACOGNwbqhIPsk2NSxI+uKcpQCRRQookARBYooUESBIgoUUaA8dL7+AHBTbrsvqDBPAAAAAElFTkSuQmCC" />
+                                                                                                </ui:ImageFound.Image>
+                                                                                                <ui:ImageFound.Target>
+                                                                                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="6aa51c64-0b25-474a-bf29-14362ac86ebe" TimeoutMS="1000">
+                                                                                                    <ui:Target.WaitForReady>
+                                                                                                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                                                                                                    </ui:Target.WaitForReady>
+                                                                                                  </ui:Target>
+                                                                                                </ui:ImageFound.Target>
+                                                                                              </ui:ImageFound>
+                                                                                              <If Condition="[ui_salvar1 = True]" sap:VirtualizedContainerService.HintSize="521,573" sap2010:WorkflowViewState.IdRef="If_21">
+                                                                                                <If.Then>
+                                                                                                  <Sequence sap:VirtualizedContainerService.HintSize="376,426" sap2010:WorkflowViewState.IdRef="Sequence_195">
+                                                                                                    <sap:WorkflowViewStateService.ViewState>
+                                                                                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                                                      </scg:Dictionary>
+                                                                                                    </sap:WorkflowViewStateService.ViewState>
+                                                                                                    <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SpecialKey="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="334,116" sap2010:WorkflowViewState.IdRef="SendHotkey_121" Key="s" KeyModifiers="Alt">
+                                                                                                      <ui:SendHotkey.Target>
+                                                                                                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="bb196fbd-0890-4e9d-83d6-4bb7e5c08b07">
+                                                                                                          <ui:Target.TimeoutMS>
+                                                                                                            <InArgument x:TypeArguments="x:Int32" />
+                                                                                                          </ui:Target.TimeoutMS>
+                                                                                                          <ui:Target.WaitForReady>
+                                                                                                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                                                                                                          </ui:Target.WaitForReady>
+                                                                                                        </ui:Target>
+                                                                                                      </ui:SendHotkey.Target>
+                                                                                                    </ui:SendHotkey>
+                                                                                                    <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="Delay_5" />
+                                                                                                    <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SpecialKey="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="334,116" sap2010:WorkflowViewState.IdRef="SendHotkey_122" Key="o" KeyModifiers="Alt">
+                                                                                                      <ui:SendHotkey.Target>
+                                                                                                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="70aaf81d-08fd-4da6-a98e-28272ae9eff1">
+                                                                                                          <ui:Target.TimeoutMS>
+                                                                                                            <InArgument x:TypeArguments="x:Int32" />
+                                                                                                          </ui:Target.TimeoutMS>
+                                                                                                          <ui:Target.WaitForReady>
+                                                                                                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                                                                                                          </ui:Target.WaitForReady>
+                                                                                                        </ui:Target>
+                                                                                                      </ui:SendHotkey.Target>
+                                                                                                    </ui:SendHotkey>
+                                                                                                  </Sequence>
+                                                                                                </If.Then>
+                                                                                              </If>
+                                                                                            </Sequence>
+                                                                                            <Sequence sap:VirtualizedContainerService.HintSize="563,501" sap2010:WorkflowViewState.IdRef="Sequence_193">
                                                                                               <Sequence.Variables>
                                                                                                 <Variable x:TypeArguments="x:Boolean" Name="ui_bancoinfo" />
                                                                                               </Sequence.Variables>
@@ -3661,7 +3719,7 @@
                                                                                                 </If.Then>
                                                                                               </If>
                                                                                             </Sequence>
-                                                                                            <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DelayBefore="1000" DisplayName="Fecha cadastro" sap:VirtualizedContainerService.HintSize="526,116" sap2010:WorkflowViewState.IdRef="SendHotkey_115" Key="f4" KeyModifiers="None" SpecialKey="True">
+                                                                                            <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DelayBefore="1000" DisplayName="Fecha cadastro" sap:VirtualizedContainerService.HintSize="563,116" sap2010:WorkflowViewState.IdRef="SendHotkey_115" Key="f4" KeyModifiers="None" SpecialKey="True">
                                                                                               <ui:SendHotkey.Target>
                                                                                                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="eae4f2f9-3e37-4cbf-a2b6-a0e7272c922f">
                                                                                                   <ui:Target.TimeoutMS>
@@ -3710,7 +3768,7 @@
                                                       <av:Size x:Key="ShapeSize">200,66</av:Size>
                                                     </scg:Dictionary>
                                                   </sap:WorkflowViewStateService.ViewState>
-                                                  <Sequence DisplayName="Log e falha regra negocio" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_43">
+                                                  <Sequence DisplayName="Log e falha regra negocio" sap:VirtualizedContainerService.HintSize="242,114" sap2010:WorkflowViewState.IdRef="Sequence_43">
                                                     <sap:WorkflowViewStateService.ViewState>
                                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -4079,13 +4137,13 @@
                                             <av:Size x:Key="ShapeSize">200,66</av:Size>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
-                                        <Sequence sap:VirtualizedContainerService.HintSize="376,470" sap2010:WorkflowViewState.IdRef="Sequence_190">
+                                        <Sequence sap:VirtualizedContainerService.HintSize="568,956" sap2010:WorkflowViewState.IdRef="Sequence_190">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
-                                          <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" AlterIfDisabled="True" DisplayName="Type Into" sap:VirtualizedContainerService.HintSize="334,96" sap2010:WorkflowViewState.IdRef="TypeInto_210" Text="Funcionário">
+                                          <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" AlterIfDisabled="True" DisplayName="Type Into" sap:VirtualizedContainerService.HintSize="526,96" sap2010:WorkflowViewState.IdRef="TypeInto_210" Text="Funcionário">
                                             <ui:TypeInto.Target>
                                               <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="1ea72dba-4dfd-4bb6-86b7-52bd9b78f116">
                                                 <ui:Target.TimeoutMS>
@@ -4102,7 +4160,7 @@
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
                                           </ui:TypeInto>
-                                          <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Image 'wfica32.exe Aplicativos'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="ClickImage_92" KeyModifiers="None" MouseButton="BTN_LEFT">
+                                          <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Image 'wfica32.exe Aplicativos'" sap:VirtualizedContainerService.HintSize="526,106" sap2010:WorkflowViewState.IdRef="ClickImage_92" KeyModifiers="None" MouseButton="BTN_LEFT">
                                             <ui:ClickImage.CursorPosition>
                                               <ui:CursorPosition OffsetX="60" OffsetY="5" Position="TopRight" />
                                             </ui:ClickImage.CursorPosition>
@@ -4120,7 +4178,7 @@
                                               </ui:Target>
                                             </ui:ClickImage.Target>
                                           </ui:ClickImage>
-                                          <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" AlterIfDisabled="True" DisplayName="Type Into" sap:VirtualizedContainerService.HintSize="334,96" sap2010:WorkflowViewState.IdRef="TypeInto_211" Text="[dic_dados(&quot;razao_social&quot;).ToString]">
+                                          <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" AlterIfDisabled="True" DisplayName="Type Into" sap:VirtualizedContainerService.HintSize="526,96" sap2010:WorkflowViewState.IdRef="TypeInto_211" Text="[dic_dados(&quot;razao_social&quot;).ToString]">
                                             <ui:TypeInto.Target>
                                               <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="b43438c6-2f30-4a5d-888c-f05729ed28c1">
                                                 <ui:Target.TimeoutMS>
@@ -4132,6 +4190,33 @@
                                               </ui:Target>
                                             </ui:TypeInto.Target>
                                           </ui:TypeInto>
+                                          <Sequence DisplayName="Nome errado" sap:VirtualizedContainerService.HintSize="526,446" sap2010:WorkflowViewState.IdRef="Sequence_196">
+                                            <Sequence.Variables>
+                                              <Variable x:TypeArguments="x:Boolean" Name="ui_nomeerrado" />
+                                            </Sequence.Variables>
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <ui:ImageFound DisplayName="Image Exists 'iexplore.exe Aplicativos'" Found="[ui_nomeerrado]" sap:VirtualizedContainerService.HintSize="484,106" sap2010:WorkflowViewState.IdRef="ImageFound_21">
+                                              <ui:ImageFound.Image>
+                                                <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAWcAAAAZCAYAAADt5++IAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAI7SURBVHhe7dlbbhsxDIXhWbqX1LX0qTvIEvI4hR4IMKcUdYmdUsk/wAeLF8k2giFs53p/f7sBALUwnAGgIIYzABTEcAaAghjOAFAQwxkACmI4A0BBDGcAKOj6/efXDQCo5Xo8HjcAoJbr5uLi4jrgal/1f9LFb84AjtC+6rcrqn1HDGcAR2A4A0BBDGeUcl1XmAd+mmcP5+r31ofh3Huxld7Ezmtpe1TU9wzPPHvmrFe+F6CS0XDu3QtR/oT75p/hXP2N7LyWE/4QAHIzw7n6/FoRfnLWNxPFRvO+7vPa6/NRzfM92ms1zXsrNR/buj1GZ0T5KM76oprPa81iffR14/PA6WY/OUf3RLTu1dqj5n2sea1Z7PO93szycB7VRnG0juIo39afPUNlZ7S1xrvrqPaV+4DTfcVwHsXROqrN9ma6vznPrFdqGo96e/ndMzyt9eKVWpRf2d87r3nFmcBpVn5znlmv1DR+1jmZ9B+CFvt89kRZTeO2Vr7X9/XirDaTb3bP7525uz+KvaxvpgacbvUfghbP3iNZTeO2VlHfTNzzX4ezr/WsnNE7M3uu3fN7Z+7uf3UNOF214exr3so5mXQ4W87nsyfKahqPeqN8W3/2DKXnaWxrjVfXu7W23tkXxcDJVoez5Xr3SFYbxbu1KO4ZDuco32Kj+dXY+LzyPdprNc17Wa3x+32v7ovi2Z6ZPo0t52uz+zQPnG5nOEd5f3/4WtQ3io3mfWy5qDfzYTgDQFWj4fy9vN1/AeEpqOlH/LQXAAAAAElFTkSuQmCC" />
+                                              </ui:ImageFound.Image>
+                                              <ui:ImageFound.Target>
+                                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="83875232-07d5-4558-8b20-2006c4338c2a" TimeoutMS="1500">
+                                                  <ui:Target.WaitForReady>
+                                                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                                                  </ui:Target.WaitForReady>
+                                                </ui:Target>
+                                              </ui:ImageFound.Target>
+                                            </ui:ImageFound>
+                                            <If Condition="[ui_nomeerrado = True]" sap:VirtualizedContainerService.HintSize="484,208" sap2010:WorkflowViewState.IdRef="If_22">
+                                              <If.Then>
+                                                <Throw Exception="[new BusinessRuleException(&quot;Na fazenda &quot;+faz_list(ind_fazenda).ToString+&quot;: Funcionário não cadastrado.&quot;)]" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="Throw_4" />
+                                              </If.Then>
+                                            </If>
+                                          </Sequence>
                                         </Sequence>
                                       </FlowStep>
                                     </FlowSwitch>
