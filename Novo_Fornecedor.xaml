@@ -1,11 +1,11 @@
 <Activity mc:Ignorable="sap sap2010" x:Class="Novo_Fornecedor" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
-    <x:Property Name="in_TransactionItem" Type="InArgument(ui:QueueItem)" />
+    <x:Property Name="in_TransactionItem" Type="InArgument(scg:Dictionary(x:String, x:Object))" />
   </x:Members>
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>748,1224</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>821,1224</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Novo_Fornecedor_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="24">
@@ -4604,7 +4604,7 @@
           <av:PointCollection x:Key="ConnectorLocation">300,70 330,70 330,17 480,17 480,47</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence sap2010:Annotation.AnnotationText="Esta seção lê a planilha de cadastro e reúne todos os dados necessários na automação." DisplayName="Inicialização" sap:VirtualizedContainerService.HintSize="200,138" sap2010:WorkflowViewState.IdRef="Sequence_46">
+      <Sequence sap2010:Annotation.AnnotationText="Esta seção lê a planilha de cadastro e reúne todos os dados necessários na automação." DisplayName="Inicialização" sap:VirtualizedContainerService.HintSize="642,1407" sap2010:WorkflowViewState.IdRef="Sequence_46">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -4616,7 +4616,7 @@
             <OutArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)">[dic_dados]</OutArgument>
           </Assign.To>
           <Assign.Value>
-            <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)">[in_TransactionItem.SpecificContent]</InArgument>
+            <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)">[in_TransactionItem]</InArgument>
           </Assign.Value>
         </Assign>
         <TryCatch sap2010:Annotation.AnnotationText="Esta sequencia troca nulos por strings vazias" DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="600,692" sap2010:WorkflowViewState.IdRef="TryCatch_2">

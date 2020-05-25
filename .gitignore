@@ -3,6 +3,7 @@
 *.xlsm
 .local/*
 .screenshots/*
+.settings/*
+.screenshots/*
 Itens/*
 Thumbs.db
-Data/*
