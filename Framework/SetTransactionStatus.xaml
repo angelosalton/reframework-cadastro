@@ -11,7 +11,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>798,986</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>667,1126</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>SetTransactionStatus_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -99,7 +99,7 @@
               <av:Size x:Key="ShapeSize">200,138</av:Size>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Sequence sap2010:Annotation.AnnotationText="This Transition is picked up if we have no exception, of any type.&#xA;" DisplayName="Success" sap:VirtualizedContainerService.HintSize="200,138" sap2010:WorkflowViewState.IdRef="Sequence_6">
+          <Sequence sap2010:Annotation.AnnotationText="This Transition is picked up if we have no exception, of any type.&#xA;" DisplayName="Success" sap:VirtualizedContainerService.HintSize="418,848" sap2010:WorkflowViewState.IdRef="Sequence_6">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -121,7 +121,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
               <ui:DatabaseConnect DatabaseConnection="[dbconn]" DisplayName="Connect" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="DatabaseConnect_1" ProviderName="System.Data.OleDb" ConnectionString="[&quot;Provider=Microsoft.Jet.OLEDB.4.0;Data Source=&quot;+in_Config(&quot;CaminhoRedeBase&quot;).ToString]" />
-              <ui:ExecuteNonQuery AffectedRecords="{x:Null}" ContinueOnError="{x:Null}" TimeoutMS="{x:Null}" CommandType="Text" DisplayName="Atualiza status do cadastro" ExistingDbConnection="[dbconn]" sap:VirtualizedContainerService.HintSize="334,88" sap2010:WorkflowViewState.IdRef="ExecuteNonQuery_1" Sql="[&quot;UPDATE Cadastros SET [status] = 'Concluído', [hora_conclusao] = '&quot;+Now.ToString(&quot;dd/MM/yyyy H:m:s&quot;)+&quot;' WHERE [id] = &quot;+in_TransactionItem(&quot;id&quot;).ToString+&quot;;&quot;]">
+              <ui:ExecuteNonQuery AffectedRecords="{x:Null}" ContinueOnError="{x:Null}" TimeoutMS="{x:Null}" CommandType="Text" DisplayName="Atualiza status do cadastro" ExistingDbConnection="[dbconn]" sap:VirtualizedContainerService.HintSize="334,88" sap2010:WorkflowViewState.IdRef="ExecuteNonQuery_1" Sql="[&quot;UPDATE Cadastros SET [status] = 'Concluído', [obs] = 'Automação OK', [hora_conclusao] = '&quot;+Now.ToString(&quot;dd/MM/yyyy H:m:s&quot;)+&quot;' WHERE [id] = &quot;+in_TransactionItem(&quot;id&quot;).ToString+&quot;;&quot;]">
                 <ui:ExecuteNonQuery.Parameters>
                   <scg:Dictionary x:TypeArguments="x:String, Argument" />
                 </ui:ExecuteNonQuery.Parameters>
@@ -167,7 +167,7 @@
                   <av:Size x:Key="ShapeSize">200,123</av:Size>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Sequence sap2010:Annotation.AnnotationText="This transition is executed if a business rule exception occurred." DisplayName="Handle Business Rule Exception" sap:VirtualizedContainerService.HintSize="418,837" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <Sequence sap2010:Annotation.AnnotationText="This transition is executed if a business rule exception occurred." DisplayName="Handle Business Rule Exception" sap:VirtualizedContainerService.HintSize="200,123" sap2010:WorkflowViewState.IdRef="Sequence_3">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -189,7 +189,7 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                   <ui:DatabaseConnect DatabaseConnection="[dbconn]" DisplayName="Connect" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="DatabaseConnect_2" ProviderName="System.Data.OleDb" ConnectionString="[&quot;Provider=Microsoft.Jet.OLEDB.4.0;Data Source=&quot;+in_Config(&quot;CaminhoRedeBase&quot;).ToString]" />
-                  <ui:ExecuteNonQuery AffectedRecords="{x:Null}" ContinueOnError="{x:Null}" TimeoutMS="{x:Null}" CommandType="Text" DisplayName="Atualiza status do cadastro" ExistingDbConnection="[dbconn]" sap:VirtualizedContainerService.HintSize="334,88" sap2010:WorkflowViewState.IdRef="ExecuteNonQuery_2" Sql="[&quot;UPDATE Cadastros SET [status] = 'Verificar', [obs] = '&quot;+in_BusinessRuleException.Message.ToString+&quot;' WHERE [id] = &quot;+in_TransactionItem(&quot;id&quot;).ToString+&quot;;&quot;]">
+                  <ui:ExecuteNonQuery AffectedRecords="{x:Null}" ContinueOnError="{x:Null}" TimeoutMS="{x:Null}" CommandType="Text" DisplayName="Atualiza status do cadastro" ExistingDbConnection="[dbconn]" sap:VirtualizedContainerService.HintSize="334,88" sap2010:WorkflowViewState.IdRef="ExecuteNonQuery_2" Sql="[&quot;UPDATE Cadastros SET [status] = 'Qualificado', [obs] = '&quot;+in_BusinessRuleException.Message.ToString+&quot;' WHERE [id] = &quot;+in_TransactionItem(&quot;id&quot;).ToString+&quot;;&quot;]">
                     <ui:ExecuteNonQuery.Parameters>
                       <scg:Dictionary x:TypeArguments="x:String, Argument" />
                     </ui:ExecuteNonQuery.Parameters>
